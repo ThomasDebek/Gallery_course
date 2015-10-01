@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   #get 'test/index'
 
+  root 'test#index'
+
   #get 'strona_glowna', to: 'test#index', as: :glowna
 
   match ':controller(/:action(/:id))', :via => [:get, :post]
