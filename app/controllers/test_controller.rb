@@ -1,6 +1,9 @@
 class TestController < ApplicationController
   def index
-    @testowa = "Witamy w moim kursie"
+    @testowa = "Witamy w moim kursie Ror :)"
+    $globalna = "Zmienna globalna"
+
+    @imiona = ["Ala", "Ewa", "Ola"]
   end
 
   def new_action

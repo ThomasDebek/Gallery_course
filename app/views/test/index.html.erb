@@ -1,1 +1,15 @@
 <h1>Moja strona testowa</h1>
+
+<p>
+  <%= @testowa %>
+</p>
+
+
+
+<p>
+  <% @imiona.each do |imie| %>
+    <%= "Witaj #{imie.capitalize} w kursie Ruby on Rails!" %>
+      <br>
+      <hr>
+      <% end %>
+</p>
