@@ -4,6 +4,9 @@ class TestController < ApplicationController
     $globalna = "Zmienna globalna"
 
     @imiona = ["Ala", "Ewa", "Ola"]
+    @id = params[:id].to_i
+
+
   end
 
   def new_action
