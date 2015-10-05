@@ -22,3 +22,14 @@
 <p>
   <%= link_to 'Back',{:action => 'nawigacja'} %>
 </p>
+
+
+<p>
+  <%= "Parametr_id = " + params[:id]%>
+  <br>
+  Parametr <%=  params[:id] %>
+  <br>
+  Strona = <%= params[:strona] %>
+  <br>
+  Strona = <%= params[:strona].to_i + 1 %>
+</p>
