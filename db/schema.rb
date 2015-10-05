@@ -11,6 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20151005191246) do
+
+  create_table "uzytkowniks", force: :cascade do |t|
+    t.string   "imie",            limit: 20
+    t.string   "nazwisko",        limit: 60
+    t.string   "uzytkownik",      limit: 25
+    t.string   "email",           limit: 100, default: "", null: false
+    t.string   "telefon",                     default: "", null: false
+    t.string   "password_digest"
+    t.datetime "created_at",                               null: false
+    t.datetime "updated_at",                               null: false
+  end
+
+  add_index "uzytkowniks", ["uzytkownik"], name: "index_uzytkowniks_on_uzytkownik"
 
 end
