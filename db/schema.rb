@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151006174426) do
+ActiveRecord::Schema.define(version: 20151006175815) do
 
   create_table "kategories", force: :cascade do |t|
     t.string   "nazwa"
@@ -20,6 +20,17 @@ ActiveRecord::Schema.define(version: 20151006174426) do
     t.datetime "created_at",                null: false
     t.datetime "updated_at",                null: false
   end
+
+  create_table "stronas", force: :cascade do |t|
+    t.integer  "kategorie_id"
+    t.string   "nazwa"
+    t.integer  "pozycja"
+    t.boolean  "widoczna",     default: true
+    t.datetime "created_at",                  null: false
+    t.datetime "updated_at",                  null: false
+  end
+
+  add_index "stronas", ["kategorie_id"], name: "index_stronas_on_kategorie_id"
 
   create_table "uzytkowniks", force: :cascade do |t|
     t.string   "imie",            limit: 20
