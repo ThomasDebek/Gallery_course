@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151006181314) do
+ActiveRecord::Schema.define(version: 20151006181747) do
 
   create_table "artykuls", force: :cascade do |t|
     t.integer  "strona_id"
@@ -71,5 +71,19 @@ ActiveRecord::Schema.define(version: 20151006181314) do
   end
 
   add_index "uzytkowniks", ["uzytkownik"], name: "index_uzytkowniks_on_uzytkownik"
+
+  create_table "zdjecies", force: :cascade do |t|
+    t.integer  "galerie_id"
+    t.string   "nazwa"
+    t.integer  "pozycja"
+    t.boolean  "widoczne",             default: true
+    t.string   "opis"
+    t.string   "zdjecie_file_name"
+    t.string   "zdjecie_content_type"
+    t.integer  "zdjecie_file_size"
+    t.datetime "zdjecie_updated_at"
+    t.datetime "created_at",                          null: false
+    t.datetime "updated_at",                          null: false
+  end
 
 end
