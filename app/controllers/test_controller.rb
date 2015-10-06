@@ -1,4 +1,7 @@
 class TestController < ApplicationController
+
+  layout false
+
   def index
     @testowa = "Witamy w moim kursie Ror :)"
     $globalna = "Zmienna globalna"

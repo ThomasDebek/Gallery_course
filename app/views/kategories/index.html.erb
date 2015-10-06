@@ -1,2 +1,31 @@
-<h1>Kategories#index</h1>
-<p>Find me in app/views/kategories/index.html.erb</p>
+<h1>Kategorie</h1>
+
+<%= link_to 'Dodaj nowa kategorie', '#' %>
+
+<p>Ilosć kategorii: <%= @kategorie.size %> </p>
+
+
+<table>
+  <tr>
+    <th>Pozycja</th>
+    <th>Nazwa kategorii</th>
+    <th>Widoczna</th>
+    <th>Strony</th>
+    <th>Akcja</th>
+  </tr>
+<% @kategorie.each do |kategoria| %>
+  <tr>
+    <th><%= kategoria.pozycja %></th>
+    <th><%= kategoria.nazwa %></th>
+    <th><%= kategoria.widoczna ? 'Tak' : 'Nie' %></th>
+    <th><%= kategoria.strona.size %></th>
+    <th>
+      <%= link_to "Show", "#" %>
+      <%= link_to "Edit", "#" %>
+      <%= link_to "Delete", "#" %>
+
+  </tr>
+
+  <% end %>
+
+</table>
