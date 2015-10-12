@@ -1,0 +1,19 @@
+<table>
+  <tr>
+    <th><%= pole.label(:nazwa) %></th>
+    <th><%= pole.text_field(:nazwa) %></th>
+  </tr>
+  <tr>
+    <th><%= pole.label(:pozycja) %></th>
+    <th><%= pole.select(:pozycja, 1..@licznik) %></th>
+  </tr>
+  <tr>
+    <th><%= pole.label(:widoczna, "Czy jest widoczna") %></th>
+    <th><%= pole.check_box(:widoczna) %></th>
+  </tr>
+  <tr>
+    <th><%= pole.label(:created_at, "Utworzona") %></th>
+    <th><%= pole.datetime_select(:created_at) %></th>
+  </tr>
+
+</table>

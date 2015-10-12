@@ -53,6 +53,6 @@ class KategoriesController < ApplicationController
 
   private
   def kategorie_parametry
-    params.require(:kategoria).permit(:nazwa, :pozycja, :widoczna)
+    params.require(:kategoria).permit(:nazwa, :pozycja, :widoczna, :created_at)
   end
 end
