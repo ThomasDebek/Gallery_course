@@ -1,31 +1,34 @@
-<h1>Kategorie</h1>
+<div class="hero-unit">
+  <h1>Kategorie</h1>
 
-<%= link_to 'Dodaj nowa kategorie', {:action=> 'nowa' } %>
+  <%= link_to 'Dodaj nowa kategorie', {:action=> 'nowa' }, :class => 'btn btn-mini btn-primary' %>
 
-<p>Ilosć kategorii: <%= @kategorie.size %> </p>
+  <p style="text-align: right;">Ilosć kategorii: <%= @kategorie.size %> </p>
 
 
-<table>
-  <tr>
-    <th>Pozycja</th>
-    <th>Nazwa kategorii</th>
-    <th>Widoczna</th>
-    <th>Strony</th>
-    <th>Akcja</th>
-  </tr>
-<% @kategorie.each do |kategoria| %>
-  <tr>
-    <th><%= kategoria.pozycja %></th>
-    <th><%= kategoria.nazwa %></th>
-    <th><%= kategoria.widoczna ? 'Tak' : 'Nie' %></th>
-    <th><%= kategoria.stronas.size %></th>
-    <th>
-      <%= link_to "Show", {:action => 'pokaż', :id => kategoria.id} %>
-      <%= link_to "Edit",  {:action => 'edycja', :id => kategoria.id} %>
-      <%= link_to "Delete",  {:action => 'usun', :id => kategoria.id}%>
+  <table class="table table-striped">
+    <tr class="info">
+      <th>Pozycja</th>
+      <th>Nazwa kategorii</th>
+      <th>Widoczna</th>
+      <th>Strony</th>
+      <th>Akcja</th>
+    </tr>
+    <% @kategorie.each do |kategoria| %>
+        <tr>
+          <td><%= kategoria.pozycja %></td>
+          <td><%= kategoria.nazwa %></td>
+          <td class="center"><%= kategoria.widoczna ? 'Tak' : 'Nie' %></td>
+          <td class="center"><%= kategoria.stronas.size %></td>
+          <td class="actions">
+            <%= link_to "Show", {:action => 'pokaż', :id => kategoria.id}, :class=> 'label label-default' %>
+            <%= link_to "Edit",  {:action => 'edycja', :id => kategoria.id}, :class=> 'label label-primary' %>
+            <%= link_to "Delete",  {:action => 'usun', :id => kategoria.id}, :class=> 'label label-danger'%>
+          </td>
+        </tr>
 
-  </tr>
+    <% end %>
 
-  <% end %>
+  </table>
 
-</table>
+</div>
