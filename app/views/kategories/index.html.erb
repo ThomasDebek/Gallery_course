@@ -20,7 +20,7 @@
     <th><%= kategoria.widoczna ? 'Tak' : 'Nie' %></th>
     <th><%= kategoria.stronas.size %></th>
     <th>
-      <%= link_to "Show", "#" %>
+      <%= link_to "Show", {:action => 'pokaż', :id => kategoria.id} %>
       <%= link_to "Edit", "#" %>
       <%= link_to "Delete", "#" %>
 
