@@ -1,6 +1,6 @@
 <h1>Kategorie</h1>
 
-<%= link_to 'Dodaj nowa kategorie', '#' %>
+<%= link_to 'Dodaj nowa kategorie', {:action=> 'nowa' } %>
 
 <p>Ilosć kategorii: <%= @kategorie.size %> </p>
 
@@ -18,7 +18,7 @@
     <th><%= kategoria.pozycja %></th>
     <th><%= kategoria.nazwa %></th>
     <th><%= kategoria.widoczna ? 'Tak' : 'Nie' %></th>
-    <th><%= kategoria.strona.size %></th>
+    <th><%= kategoria.stronas.size %></th>
     <th>
       <%= link_to "Show", "#" %>
       <%= link_to "Edit", "#" %>
