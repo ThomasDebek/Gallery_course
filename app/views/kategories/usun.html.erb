@@ -1,2 +1,19 @@
-<h1>Kategories#usun</h1>
-<p>Find me in app/views/kategories/usun.html.erb</p>
+<h1>Usun category</h1>
+
+<p>
+  <%= link_to 'Back', {:action => 'index'}%>
+</p>
+
+
+<%= form_for(:kategoria, :url => {:action => 'kasuj', :id =>@kategoria.id}) do |pole| %>
+<p>Czy napewno mam usunąc kategorię?</p>
+    <p>
+      <%= @kategoria.nazwa %>
+    </p>
+
+    <div>
+      <p>
+        <%= submit_tag("Usuń") %>
+      </p>
+    </div>
+<% end %>

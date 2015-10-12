@@ -19,6 +19,13 @@ class KategoriesController < ApplicationController
   end
 
   def usun
+    @kategoria = Kategorie.find(params[:id])
+
+  end
+
+  def kasuj
+    @kategoria = Kategorie.find(params[:id]).destroy
+    redirect_to(:action => 'index')
   end
 
   def utworz
