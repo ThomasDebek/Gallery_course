@@ -21,7 +21,7 @@
     <th><%= kategoria.stronas.size %></th>
     <th>
       <%= link_to "Show", {:action => 'pokaż', :id => kategoria.id} %>
-      <%= link_to "Edit", "#" %>
+      <%= link_to "Edit",  {:action => 'edycja', :id => kategoria.id} %>
       <%= link_to "Delete",  {:action => 'usun', :id => kategoria.id}%>
 
   </tr>

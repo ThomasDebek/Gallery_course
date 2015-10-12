@@ -16,7 +16,20 @@ class KategoriesController < ApplicationController
   end
 
   def edycja
+    @licznik = Kategorie.count
+    @kategoria = Kategorie.find(params[:id])
   end
+
+  def aktualizuj
+    @kategoria = Kategorie.find(params[:id])
+    if @kategoria.update_attributes(kategorie_parametry)
+      redirect_to(:action => 'pokaż', :id => @kategoria.id)
+    else
+      @licznik = Kategorie.count
+      render 'edycja'
+    end
+  end
+
 
   def usun
     @kategoria = Kategorie.find(params[:id])

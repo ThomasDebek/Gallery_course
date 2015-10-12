@@ -1,2 +1,29 @@
-<h1>Kategories#edycja</h1>
-<p>Find me in app/views/kategories/edycja.html.erb</p>
+<h1>Edit category</h1>
+
+<p>
+  <%= link_to 'Back', {:action => 'index'}%>
+</p>
+
+
+<%= form_for(:kategoria, :url => {:action => 'aktualizuj', :id =>@kategoria.id}) do |pole| %>
+    <table>
+      <tr>
+        <th><%= pole.label(:nazwa) %></th>
+        <th><%= pole.text_field(:nazwa) %></th>
+      </tr>
+      <tr>
+        <th><%= pole.label(:pozycja) %></th>
+        <th><%= pole.select(:pozycja, 1..@licznik) %></th>
+      </tr>
+      <tr>
+        <th><%= pole.label(:widoczna, "Czy jest widoczna") %></th>
+        <th><%= pole.check_box(:widoczna) %></th>
+      </tr>
+    </table>
+
+    <div>
+      <p>
+        <%= submit_tag("Aktualizuj") %>
+      </p>
+    </div>
+<% end %>
