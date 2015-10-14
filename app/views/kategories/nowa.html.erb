@@ -1,17 +1,14 @@
-<h1>New category</h1>
-
-<p>
-  <%= link_to 'Back', {:action => 'index'}%>
-</p>
+<div class="hero-unit">
+  <h1>New category</h1>
 
 
-<%= form_for(:kategoria, :url => {:action => 'utworz'}) do |pole| %>
+  <%= form_for(:kategoria, :url => {:action => 'utworz'}) do |pole| %>
 
-    <%= render(:partial => "form", :locals => {:pole => pole }) %>
+      <%= render(:partial => "form", :locals => {:pole => pole }) %>
 
-    <div>
-      <p>
-        <%= submit_tag("Utworz") %>
-      </p>
-    </div>
-<% end %>
+      <div style="text-align: center">
+        <%= link_to 'Back', {:action => 'index'}, :class => 'btn btn-warning'%>
+        <%= submit_tag("Utworz", :class => 'btn btn-primary')%>
+      </div>
+  <% end %>
+</div>
