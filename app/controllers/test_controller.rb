@@ -1,6 +1,6 @@
 class TestController < ApplicationController
 
-  layout false
+  # layout false
 
   def index
     @testowa = "Witamy w moim kursie Ror :)"
