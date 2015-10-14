@@ -11,8 +11,9 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-    background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, #003655 0px, #0066a1 50%, #0096ee 100%) repeat scroll 0 0;
-}
+    margin: 0;
+    /*! background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, #003655 0px, #0066a1 50%, #0096ee 100%) repeat scroll 0 0;
+*/ }
 article,
 aside,
 details,
