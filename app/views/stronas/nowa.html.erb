@@ -1,2 +1,14 @@
-<h1>Stronas#nowa</h1>
-<p>Find me in app/views/stronas/nowa.html.erb</p>
+<div class="hero-unit">
+  <h1>New strona</h1>
+
+
+  <%= form_for(:strona, :url => {:action => 'utworz'}) do |strona| %>
+
+      <%= render(:partial => "form", :locals => {:pole => strona }) %>
+
+      <div style="text-align: center">
+        <%= link_to 'Back', {:action => 'index'}, :class => 'btn btn-warning'%>
+        <%= submit_tag("Utworz", :class => 'btn btn-primary')%>
+      </div>
+  <% end %>
+</div>

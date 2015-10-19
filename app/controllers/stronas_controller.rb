@@ -11,6 +11,9 @@ class StronasController < ApplicationController
   end
 
   def nowa
+    @strona = Strona.new(:nazwa => "Podaj nazwę strony")
+    @kategoria = Kategorie.order('pozycja ASC')
+    @licznik = Strona.count + 1
   end
 
   def edycja
@@ -18,4 +21,29 @@ class StronasController < ApplicationController
 
   def usun
   end
+
+  def utworz
+    @strona = Strona.new(strona_parametry)
+    if @strona.save
+     flash[:notice] = "Strona została pomyslnie utworzona"
+    redirect_to(:action => 'index')
+  else
+    @licznik = Strona.count +1
+    render 'nowa'
+    end
+
+  end
+  private
+  def strona_parametry
+    params.require(:strona).permit(:nazwa, :pozycja, :widoczna, :created_at, :kategorie_id)
+  end
+
+
+
 end
+
+
+
+
+
+

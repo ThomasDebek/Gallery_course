@@ -1,0 +1,25 @@
+<table class="table table-striped">
+  <tr>
+    <th><%= pole.label(:kategorie_id, "Kategoria") %></th>
+    <th><%= pole.select(:kategorie_id, @kategoria.map{|t| [t.nazwa, t.id]}, :class => 'form-control') %></th>
+  </tr>
+  <tr>
+    <th><%= pole.label(:nazwa) %></th>
+    <th><%= pole.text_field(:nazwa, :class => 'form-control') %></th>
+  </tr>
+  <tr>
+    <th><%= pole.label(:pozycja) %></th>
+    <th><%= pole.select(:pozycja, 1..@licznik, :class => 'form-control') %></th>
+  </tr>
+  <tr>
+    <th><%= pole.label(:widoczna, "Czy jest widoczna") %></th>
+    <th><%= pole.check_box(:widoczna) %></th>
+  </tr>
+  <tr>
+    <th><%= pole.label(:created_at, "Utworzona") %></th>
+    <th><%= pole.datetime_select(:created_at, :class => 'form-control') %></th>
+  </tr>
+
+</table>
+
+
