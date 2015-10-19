@@ -25,6 +25,7 @@ class StronasController < ApplicationController
   end
 
   def usun
+    @strona= Strona.find(params[:id])
   end
 
   def utworz
@@ -48,6 +49,13 @@ class StronasController < ApplicationController
       @kategoria = Kategorie.order('pozycja ASC')
       render 'edycja'
     end
+  end
+
+
+  def kasuj
+    @strona= Strona.find(params[:id]).destroy
+    flash[:notice] = "Strona '#{@strona.nazwa}'  została pomyslnie usunieta"
+    redirect_to(:action => 'index')
   end
 
 

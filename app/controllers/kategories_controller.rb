@@ -46,15 +46,14 @@ class KategoriesController < ApplicationController
   def utworz
     @kategorie = Kategorie.new(kategorie_parametry)
     if @kategorie.save
-      flash[:notice] = "Kategoria została pomyslnie utworzona"
+      flash[:notice] = "Kategoria została pomyślnie utworzona"
       redirect_to(:action=>'index')
     else
       @licznik = Kategorie.count + 1
-      render 'nowa'
+      render('nowa')
     end
   end
 
-  private
   def kategorie_parametry
     params.require(:kategoria).permit(:nazwa, :pozycja, :widoczna, :created_at)
   end
