@@ -1,2 +1,34 @@
-<h1>Stronas#index</h1>
-<p>Find me in app/views/stronas/index.html.erb</p>
+<div class="hero-unit">
+  <h1>Strona</h1>
+
+  <%= link_to 'Dodaj nowa kategorie', {:action=> 'nowa' }, :class => 'btn btn-mini btn-primary' %>
+
+  <p style="text-align: right;">Ilosć stron: <%= @stronas.size %> </p>
+
+
+  <table class="table table-striped">
+    <tr class="info">
+      <th>Pozycja</th>
+      <th>Nazwa strony</th>
+      <th>Widoczna</th>
+      <th>Artykuly</th>
+      <th>Akcja</th>
+    </tr>
+    <% @stronas.each do |strona| %>
+        <tr>
+          <td><%= strona.pozycja %></td>
+          <td><%= strona.nazwa %></td>
+          <td class="center"><%= status_widoku(strona.widoczna) %></td>
+          <td class="center"><%= strona.artykuls.size %></td>
+          <td class="actions">
+            <%= link_to "Show", {:action => 'pokaż', :id => strona.id}, :class=> 'label label-default' %>
+            <%= link_to "Edit",  {:action => 'edycja', :id => strona.id}, :class=> 'label label-primary' %>
+            <%= link_to "Delete",  {:action => 'usun', :id => strona.id}, :class=> 'label label-danger'%>
+          </td>
+        </tr>
+
+    <% end %>
+
+  </table>
+
+</div>

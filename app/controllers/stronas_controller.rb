@@ -1,5 +1,10 @@
 class StronasController < ApplicationController
+
+  layout 'admin'
+
+
   def index
+    @stronas = Strona.sortuj
   end
 
   def pokaz
