@@ -7,7 +7,7 @@ class StronasControllerTest < ActionController::TestCase
   end
 
   test "should get pokaz" do
-    get :pokaz
+    get :pokaż
     assert_response :success
   end
 

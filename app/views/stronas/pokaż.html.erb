@@ -1,0 +1,38 @@
+<div class="hero-unit">
+  <h1>Pokaż strone</h1>
+
+  <table class="table table-striped">
+    <tr>
+      <th>Kategoria</th>
+      <th><%= @strona.kategorie.nazwa %></th>
+    </tr>
+    <tr>
+      <th>Nazwa</th>
+      <th><%= @strona.nazwa %></th>
+    </tr>
+    <tr>
+      <th>Pozycja</th>
+      <th><%= @strona.pozycja %></th>
+    </tr>
+    <tr>
+      <th>Czy widoczna</th>
+      <th><%= @strona.widoczna ? 'Tak' : 'Nie :(' %></th>
+    </tr>
+    <tr>
+      <th>Utworzona</th>
+      <th><%= @strona.created_at %></th>
+    </tr>
+    <tr>
+      <th>Zaktualizowana</th>
+      <th><%= @strona.updated_at %></th>
+    </tr>
+  </table>
+
+  <div style="text-align: center;">
+    <%= link_to 'Back', {:action => 'index'}, :class => 'btn btn-primary'%>
+
+  </div>
+
+
+
+</div>

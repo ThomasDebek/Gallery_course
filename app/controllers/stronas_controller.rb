@@ -7,8 +7,10 @@ class StronasController < ApplicationController
     @stronas = Strona.sortuj
   end
 
-  def pokaz
+  def pokaż
+    @strona = Strona.find(params[:id])
   end
+
 
   def nowa
     @strona = Strona.new(:nazwa => "Podaj nazwę strony")
@@ -40,7 +42,7 @@ class StronasController < ApplicationController
     @strona = Strona.find(params[:id])
     if @strona.update_attributes(strona_parametry)
       flash[:notice] = "Strona została pomyslnie zmodyfikowana"
-      redirect_to(:action => 'pokaz', :id => @strona.id)
+      redirect_to(:action => 'pokaż', :id => @strona.id)
     else
       @licznik = Strona.count
       @kategoria = Kategorie.order('pozycja ASC')
