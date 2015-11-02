@@ -35,6 +35,7 @@ class StronasController < ApplicationController
     redirect_to(:action => 'index')
   else
     @licznik = Strona.count +1
+    @kategoria = Kategorie.order('pozycja ASC')
     render 'nowa'
     end
   end
