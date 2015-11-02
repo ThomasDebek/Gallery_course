@@ -1,0 +1,34 @@
+<div class="hero-unit">
+  <h1>Artykuly</h1>
+
+  <%= link_to 'Dodaj nowy artykul', {:action => 'nowy' }, :class => 'btn btn-mini btn-primary' %>
+
+  <p style="text-align: right;">Ilosć artykulow: <%= @artykuly.size %> </p>
+
+
+  <table class="table table-striped">
+    <tr class="info">
+      <th>Pozycja</th>
+      <th>Strona</th>
+      <th>Tytul artykulu</th>
+      <th>Widoczny</th>
+      <th>Akcja</th>
+    </tr>
+    <% @artykuly.each do |artykul| %>
+        <tr>
+          <td><%= artykul.pozycja %></td>
+          <td><%= artykul.strona.nil? %></td>
+          <td><%= artykul.nazwa %></td>
+          <td class="center"><%= status_widoku(artykul.widoczny) %></td>
+          <td class="actions">
+            <%= link_to "Show", {:action => 'pokaż', :id => artykul.id}, :class=> 'label label-default' %>
+            <%= link_to "Edit",  {:action => 'edycja', :id => artykul.id}, :class=> 'label label-primary' %>
+            <%= link_to "Delete",  {:action => 'usun', :id => artykul.id}, :class=> 'label label-danger'%>
+          </td>
+        </tr>
+
+    <% end %>
+
+  </table>
+
+</div>
