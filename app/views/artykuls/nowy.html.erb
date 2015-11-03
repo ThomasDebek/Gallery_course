@@ -1,2 +1,14 @@
-<h1>Artykuls#nowy</h1>
-<p>Find me in app/views/artykuls/nowy.html.erb</p>
+<div class="hero-unit">
+  <h1>New artykul</h1>
+
+
+  <%= form_for(:artykuly, :url => {:action => 'utworz'}) do |pole| %>
+
+      <%= render(:partial => "form", :locals => {:pole => pole }) %>
+
+      <div style="text-align: center">
+        <%= link_to 'Back', {:action => 'index'}, :class => 'btn btn-warning'%>
+        <%= submit_tag("Utworz", :class => 'btn btn-primary')%>
+      </div>
+  <% end %>
+</div>
