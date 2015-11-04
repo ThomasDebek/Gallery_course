@@ -1,3 +1,5 @@
+<%= blad(@artykuly) %>
+
 <table class="table table-striped">
   <tr>
     <th><%= pole.label(:strona_id, "Strona") %></th>
@@ -15,13 +17,20 @@
     <th><%= pole.label(:widoczny, "Czy jest widoczny") %></th>
     <th><%= pole.check_box(:widoczny) %></th>
   </tr>
+<%  if !@artykuly.zdjecie.blank? %>
   <tr>
-    <th><%= pole.label(:zdjecie, "Zdjecie") %></th>
-    <th><%= pole.file_field(:zdjecie) %></th>
+    <th>Zdjecie</th>
+    <th><%= image_tag(@artykuly.zdjecie) %></th>
   </tr>
+<% end %>
+
   <tr>
     <th><%= pole.label(:created_at, "Utworzony") %></th>
     <th><%= pole.datetime_select(:created_at, :class => 'form-control') %></th>
+  </tr>
+  <tr>
+    <th><%= pole.label(:zawartosc) %></th>
+    <th><%= pole.text_area(:zawartosc, :class => 'form-control') %></th>
   </tr>
 
 </table>
