@@ -5,7 +5,7 @@ class CreateKategories < ActiveRecord::Migration
       t.integer "pozycja"
       t.boolean "widoczna", :default=>true
 
-      t.timestamps null: false
+      t.timestamps
     end
   end
 

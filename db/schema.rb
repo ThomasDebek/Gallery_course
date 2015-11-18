@@ -44,8 +44,8 @@ ActiveRecord::Schema.define(version: 20151006181747) do
     t.string   "nazwa"
     t.integer  "pozycja"
     t.boolean  "widoczna",   default: true
-    t.datetime "created_at",                null: false
-    t.datetime "updated_at",                null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "stronas", force: :cascade do |t|
@@ -53,8 +53,8 @@ ActiveRecord::Schema.define(version: 20151006181747) do
     t.string   "nazwa"
     t.integer  "pozycja"
     t.boolean  "widoczna",     default: true
-    t.datetime "created_at",                  null: false
-    t.datetime "updated_at",                  null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "stronas", ["kategorie_id"], name: "index_stronas_on_kategorie_id"
@@ -66,8 +66,8 @@ ActiveRecord::Schema.define(version: 20151006181747) do
     t.string   "email",           limit: 100, default: "", null: false
     t.string   "telefon",                     default: "", null: false
     t.string   "password_digest"
-    t.datetime "created_at",                               null: false
-    t.datetime "updated_at",                               null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "uzytkowniks", ["uzytkownik"], name: "index_uzytkowniks_on_uzytkownik"
@@ -82,8 +82,8 @@ ActiveRecord::Schema.define(version: 20151006181747) do
     t.string   "zdjecie_content_type"
     t.integer  "zdjecie_file_size"
     t.datetime "zdjecie_updated_at"
-    t.datetime "created_at",                          null: false
-    t.datetime "updated_at",                          null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

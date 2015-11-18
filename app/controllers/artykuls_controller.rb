@@ -5,6 +5,11 @@ class ArtykulsController < ApplicationController
 
   def index
     @artykuly = Artykul.sortuj
+    @strona = Strona.order('pozycja ASC')
+  end
+
+  def nazwa
+    @strona = Strona.order('pozycja ASC')
   end
 
   def nowy

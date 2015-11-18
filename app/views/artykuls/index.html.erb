@@ -17,7 +17,7 @@
     <% @artykuly.each do |artykul| %>
         <tr>
           <td><%= artykul.pozycja %></td>
-          <td><%= artykul.strona.nil? %></td>
+          <td><%= artykul.strona.nazwa %></td>
           <td><%= artykul.nazwa %></td>
           <td class="center"><%= status_widoku(artykul.widoczny) %></td>
           <td class="actions">

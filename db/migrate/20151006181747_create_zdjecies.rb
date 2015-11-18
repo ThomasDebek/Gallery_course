@@ -7,11 +7,9 @@ class CreateZdjecies < ActiveRecord::Migration
       t.boolean "widoczne", :default=>true
       t.string "opis"
       t.attachment :zdjecie
-
-      t.timestamps null: false
+      t.timestamps
     end
   end
-
   def down
     drop_table :zdjecies
   end

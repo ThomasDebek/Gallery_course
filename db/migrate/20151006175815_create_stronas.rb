@@ -6,7 +6,7 @@ class CreateStronas < ActiveRecord::Migration
       t.integer "pozycja"
       t.boolean "widoczna", :default=>true
 
-      t.timestamps null: false
+      t.timestamps
     end
     add_index("stronas", "kategorie_id")
   end

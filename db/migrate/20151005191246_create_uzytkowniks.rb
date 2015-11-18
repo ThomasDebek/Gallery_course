@@ -7,7 +7,7 @@ class CreateUzytkowniks < ActiveRecord::Migration
       t.string "email", :limit=>100, :default=>"", :null => false
       t.string "telefon", :default=>"", :null =>false
       t.string "password_digest"
-      t.timestamps null: false
+      t.timestamps
     end
     add_index("uzytkowniks", "uzytkownik")
   end

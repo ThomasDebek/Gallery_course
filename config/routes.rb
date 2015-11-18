@@ -1,24 +1,24 @@
 Rails.application.routes.draw do
 
-  #get 'artykuls/index'
+  get 'artykuls/index'
 
-  #get 'artykuls/nowy'
+  get 'artykuls/nowy'
 
-  #get 'artykuls/edycja'
+  get 'artykuls/edycja'
 
-  #get 'artykuls/usun'
+  get 'artykuls/usun'
 
-  #get 'artykuls/pokaż'
+  get 'artykuls/pokaz'
 
-  #get 'stronas/index'
+  get 'stronas/index'
 
-  #get 'stronas/pokaz'
+  get 'stronas/pokaz'
 
-  #get 'stronas/nowa'
+  get 'stronas/nowa'
 
-  #get 'stronas/edycja'
+  get 'stronas/edycja'
 
-  #get 'stronas/usun'
+  get 'stronas/usun'
 
   root 'test#index'
 
