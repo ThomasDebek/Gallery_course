@@ -41,7 +41,7 @@ class ArtykulsController < ApplicationController
     @artykuly = Artykul.find(params[:id])
     if @artykuly.update_attributes(artykuly_parametry)
       flash[:notice] = "Artykuł została pomyślnie zmodyfikowany"
-      redirect_to(:action=>'pokaz', :id => @artykuly.id)
+      redirect_to(:action=>'pokaż', :id => @artykuly.id)
     else
       @licznik = Artykul.count
       @strona = Strona.order('pozycja ASC')
