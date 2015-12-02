@@ -17,6 +17,10 @@
     <th><%= pole.label(:widoczny, "Czy jest widoczny") %></th>
     <th><%= pole.check_box(:widoczny) %></th>
   </tr>
+  <tr>
+    <th><%= pole.label(:zdjecie, "Zdjęcie") %></th>
+    <th><%= pole.file_field(:zdjecie) %></th>
+  </tr>
 <%  if !@artykuly.zdjecie.blank? %>
   <tr>
     <th>Zdjecie</th>

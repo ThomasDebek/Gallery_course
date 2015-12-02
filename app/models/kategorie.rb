@@ -1,5 +1,5 @@
 class Kategorie < ActiveRecord::Base
-  has_many :stronas
+  has_many :strona
 
 
   scope :widoczna, lambda {where(:widoczna => true)}

@@ -4,13 +4,13 @@ class CreateArtykuls < ActiveRecord::Migration
       t.integer "strona_id"
       t.string "nazwa"
       t.integer "pozycja"
-      t.boolean "widoczny", :default=>true
+      t.boolean "widoczny", :default => true
       t.text "zawartosc"
       t.attachment :zdjecie
-      t.timestamps null: false
+      t.timestamps
     end
+    add_index("artykuls", "strona_id")
   end
-
   def down
     drop_table :artykuls
   end

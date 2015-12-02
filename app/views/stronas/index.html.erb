@@ -19,7 +19,7 @@
           <td><%= strona.pozycja %></td>
           <td><%= strona.nazwa %></td>
           <td class="center"><%= status_widoku(strona.widoczna) %></td>
-          <td class="center"><%= strona.artykuls.size %></td>
+          <td class="center"><%= strona.artykul.size %></td>
           <td class="actions">
             <%= link_to "Show", {:action => 'pokaż', :id => strona.id}, :class=> 'label label-default' %>
             <%= link_to "Edit",  {:action => 'edycja', :id => strona.id}, :class=> 'label label-primary' %>

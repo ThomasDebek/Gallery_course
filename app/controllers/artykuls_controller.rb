@@ -8,6 +8,7 @@ class ArtykulsController < ApplicationController
     @strona = Strona.order('pozycja ASC')
   end
 
+
   def nazwa
     @strona = Strona.order('pozycja ASC')
   end
@@ -60,9 +61,11 @@ class ArtykulsController < ApplicationController
     redirect_to(:action=>'index')
   end
 
-  def pokaz
+  def pokaż
     @artykuly = Artykul.find(params[:id])
   end
+
+
 
   def artykuly_parametry
     params.require(:artykuly).permit(:nazwa, :pozycja, :widoczny, :created_at, :strona_id, :zdjecie)

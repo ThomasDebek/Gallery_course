@@ -12,7 +12,7 @@ class Artykul < ActiveRecord::Base
                             :in	=> 0..850.kilobytes,
                             :message => '--- za duży plik max rozmiar to 850 kB ----'
 
-  validates 	:nazwa,
+  validates  :nazwa,
              :presence => true,
              :length => {:maximum => 120, :message => ": Za długi tytuł artykułu"}
 

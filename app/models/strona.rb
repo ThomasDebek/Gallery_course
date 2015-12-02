@@ -1,6 +1,6 @@
 class Strona < ActiveRecord::Base
   belongs_to :kategorie
-  has_many :artykuls
+  has_many :artykul
 
 
   scope :widoczna, lambda {where(:widoczna => true)}

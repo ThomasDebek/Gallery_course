@@ -23,9 +23,11 @@ ActiveRecord::Schema.define(version: 20151006181747) do
     t.string   "zdjecie_content_type"
     t.integer  "zdjecie_file_size"
     t.datetime "zdjecie_updated_at"
-    t.datetime "created_at",                          null: false
-    t.datetime "updated_at",                          null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
+
+  add_index "artykuls", ["strona_id"], name: "index_artykuls_on_strona_id"
 
   create_table "galeries", force: :cascade do |t|
     t.string   "nazwa"

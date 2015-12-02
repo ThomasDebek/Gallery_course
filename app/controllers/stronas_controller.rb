@@ -60,7 +60,7 @@ class StronasController < ApplicationController
   end
 
 
-  private
+
   def strona_parametry
     params.require(:strona).permit(:nazwa, :pozycja, :widoczna, :created_at, :kategorie_id)
   end
