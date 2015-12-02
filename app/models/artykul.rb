@@ -25,4 +25,5 @@ class Artykul < ActiveRecord::Base
   scope :niewidoczny, lambda{where(:widoczny => false)}
   scope :sortuj, lambda{order("artykuls.pozycja ASC")}
   scope :najnowszy, lambda{order("artykuls.created_at DESC")}
+  
 end
