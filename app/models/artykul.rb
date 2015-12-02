@@ -16,6 +16,11 @@ class Artykul < ActiveRecord::Base
              :presence => true,
              :length => {:maximum => 120, :message => ": Za długi tytuł artykułu"}
 
+  validates :nazwa,
+            presence: true,
+            :length =>{maximum: 120, :message =>": za dlugi tekst"}
+
+
   scope :widoczny, lambda{where(:widoczny => true)}
   scope :niewidoczny, lambda{where(:widoczny => false)}
   scope :sortuj, lambda{order("artykuls.pozycja ASC")}
