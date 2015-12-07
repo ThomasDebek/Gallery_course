@@ -1,6 +1,6 @@
 class Galerie < ActiveRecord::Base
 
-  has_many :zdjecies
+  has_many :zdjecie
 
   scope :widoczna, lambda{where(:widoczny => true)}
   scope :niewidoczna, lambda{where(:widoczny => false)}
