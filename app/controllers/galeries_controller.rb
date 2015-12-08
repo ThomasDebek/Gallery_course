@@ -16,7 +16,7 @@ class GaleriesController < ApplicationController
     @galeria = Galerie.new(galeria_parametry)
     if @galeria.save
       flash[:notice] = "Galeria zostala pomyslnie utworzona"
-      redirect_to(:aciton => "index")
+      redirect_to(:action => "index")
     else
       @licznik = Galerie.count +1
       render "nowa"
@@ -44,6 +44,14 @@ class GaleriesController < ApplicationController
   end
 
   def usun
+    @galeria = Galerie.find(params[:id])
+  end
+
+  def kasuj
+    galeria = Galerie.find(params[:id]).destroy
+    flash[:notice] = "Galeria #{galeria.nazwa}  została pomyślnie usunieta"
+    redirect_to(:action => "index")
+
   end
 
   def galeria_parametry
