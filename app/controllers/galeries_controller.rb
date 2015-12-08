@@ -23,7 +23,8 @@ class GaleriesController < ApplicationController
     end
   end
 
-  def pokaz
+  def pokaż
+    @galeria = Galerie.find(params[:id])
   end
 
   def edycja
@@ -33,6 +34,7 @@ class GaleriesController < ApplicationController
   end
 
   def galeria_parametry
-    params.require(:galeria).permit(:nazwa, :pozycja, :widoczna, :opis, :zdjecie)
+    params.require(:galerie).permit(:nazwa, :pozycja, :opis,  :widoczna, :zdjecie)
   end
 end
+
