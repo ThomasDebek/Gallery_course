@@ -57,5 +57,6 @@ class GaleriesController < ApplicationController
   def galeria_parametry
     params.require(:galerie).permit(:nazwa, :pozycja, :opis,  :widoczna, :zdjecie)
   end
+  
 end
 
