@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db077fa4-15c3-439c-858f-bf9c5bba6ca3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/zdjecies/edycja.html.erb" afterPath="$PROJECT_DIR$/app/views/zdjecies/edycja.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/galeries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/galeries_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/zdjecies/index.html.erb" afterPath="$PROJECT_DIR$/app/views/zdjecies/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/zdjecies/usun.html.erb" afterPath="$PROJECT_DIR$/app/views/zdjecies/usun.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/zdjecies_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/zdjecies_controller.rb" />
     </list>
     <ignored path="Gallery_course.iws" />
@@ -46,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/galeries_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="5" selection-start-line="29" selection-start-column="2" selection-end-line="38" selection-end-column="5" />
+              <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="54" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -65,7 +64,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/zdjecies/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-20.681818">
               <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
               <folding />
             </state>
@@ -85,8 +84,28 @@
       <file leaf-file-name="zdjecies_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/zdjecies_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78165376">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.22739018">
+              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usun.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/galeries/usun.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.5">
+              <caret line="11" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usun.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/zdjecies/usun.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.3636363">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -112,31 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pokaż.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/galeries/pokaż.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pokaz.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/zdjecies/pokaz.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-7.681818">
               <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/stronas/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="4" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -153,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/kategories/pokaż.html.erb" />
         <option value="$PROJECT_DIR$/app/views/kategories/usun.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/admin.html.erb" />
         <option value="$PROJECT_DIR$/app/views/stronas/nowa.html.erb" />
@@ -199,11 +197,12 @@
         <option value="$PROJECT_DIR$/app/views/test/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/zdjecies/nowa.html.erb" />
         <option value="$PROJECT_DIR$/app/views/zdjecies/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/zdjecies/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/zdjecies/pokaz.html.erb" />
         <option value="$PROJECT_DIR$/app/views/zdjecies/edycja.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/galeries_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/zdjecies_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/zdjecies/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/zdjecies/usun.html.erb" />
       </list>
     </option>
   </component>
@@ -215,8 +214,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="713" />
-    <option name="y" value="65" />
+    <option name="x" value="770" />
+    <option name="y" value="58" />
     <option name="width" value="896" />
     <option name="height" value="865" />
   </component>
@@ -556,7 +555,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="713" y="65" width="896" height="865" extended-state="0" />
+    <frame x="770" y="58" width="896" height="865" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -596,72 +595,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://GemDependency/#Gallery_course">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>GemDependency</ID>
-          <OriginalElement>#Gallery_course</OriginalElement>
-          <nodes>
-            <node x="" y="">mimemagic</node>
-            <node x="" y="">web-console</node>
-            <node x="" y="">debug_inspector</node>
-            <node x="" y="">i18n</node>
-            <node x="" y="">globalid</node>
-            <node x="" y="">byebug</node>
-            <node x="" y="">erubis</node>
-            <node x="" y="">jquery-rails</node>
-            <node x="" y="">builder</node>
-            <node x="" y="">actionmailer</node>
-            <node x="" y="">activemodel</node>
-            <node x="" y="">bcrypt</node>
-            <node x="" y="">cocaine</node>
-            <node x="" y="">sprockets-rails</node>
-            <node x="" y="">bundler</node>
-            <node x="" y="">rails-html-sanitizer</node>
-            <node x="" y="">rack-test</node>
-            <node x="" y="">sqlite3</node>
-            <node x="" y="">activerecord</node>
-            <node x="" y="">jbuilder</node>
-            <node x="" y="">tzinfo</node>
-            <node x="" y="">mail</node>
-            <node x="" y="">arel</node>
-            <node x="" y="">json</node>
-            <node x="" y="">mini_portile</node>
-            <node x="" y="">railties</node>
-            <node x="" y="">actionview</node>
-            <node x="" y="">rack</node>
-            <node x="" y="">activejob</node>
-            <node x="" y="">loofah</node>
-            <node x="" y="">paperclip</node>
-            <node x="" y="">rake</node>
-            <node x="" y="">nokogiri</node>
-            <node x="" y="">sprockets</node>
-            <node x="" y="">rdoc</node>
-            <node x="" y="">rails</node>
-            <node x="" y="">actionpack</node>
-            <node x="" y="">thread_safe</node>
-            <node x="" y="">#Gallery_course</node>
-            <node x="" y="">multi_json</node>
-            <node x="" y="">mime-types</node>
-            <node x="" y="">thor</node>
-            <node x="" y="">minitest</node>
-            <node x="" y="">rails-deprecated_sanitizer</node>
-            <node x="" y="">climate_control</node>
-            <node x="" y="">sdoc</node>
-            <node x="" y="">activesupport</node>
-            <node x="" y="">spring</node>
-            <node x="" y="">rails-dom-testing</node>
-            <node x="" y="">binding_of_caller</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.17733652858610066" x="1451.0" y="1055.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20151006174426_create_kategories.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -914,13 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/galeries/usun.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/galerie.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1003,14 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/zdjecies/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/galeries/edycja.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1023,14 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/galeries_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="5" selection-start-line="29" selection-start-column="2" selection-end-line="38" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1051,10 +961,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/galeries/usun.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5">
+          <caret line="11" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/galeries_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="54" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/zdjecies/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.681818">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/zdjecies/usun.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3636363">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/zdjecies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78165376">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.22739018">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
           <folding />
         </state>
       </provider>

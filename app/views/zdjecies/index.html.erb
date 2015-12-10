@@ -20,7 +20,7 @@
           <td><%= foto.pozycja %></td>
           <td><%= foto.nazwa %></td>
           <td><%= image_tag foto.zdjecie.url(:thumb) %></td>
-          <td><%= truncate(foto.opis, :length=>120, :omission => "[...]") %></td>
+          <td><%= truncate(foto.opis, :length=>50, :omission => "[...]") %></td>
           <td class="center"><%= status_widoku(foto.widoczne) %></td>
           <td class="actions">
             <%= link_to "Show", {:action => 'pokaz', :id => foto.id}, :class=> 'label label-default' %>
