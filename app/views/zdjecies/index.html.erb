@@ -1,7 +1,7 @@
 <div class="hero-unit">
   <h1>Zdjecia</h1>
 
-  <%= link_to 'Dodaj nowe zdjeciee', {:action => 'nowa' }, :class => 'btn btn-mini btn-primary' %>
+  <%= link_to 'Dodaj nowe zdjecie', {:action => 'nowe' }, :class => 'btn btn-mini btn-primary' %>
 
   <p style="text-align: right;">Ilosć zdjec: <%= @zdjecia.size %> </p>
 
@@ -19,13 +19,13 @@
         <tr>
           <td><%= foto.pozycja %></td>
           <td><%= foto.nazwa %></td>
-          <td><%= image_tag zdjecie.zdjecie.url(:thumb) %></td>
-          <td><%= truncate(zdjecie.opis, :length=>120, :omission => "[...]") %></td>
-          <td class="center"><%= status_widoku(zdjecie.widoczne) %></td>
+          <td><%= image_tag foto.zdjecie.url(:thumb) %></td>
+          <td><%= truncate(foto.opis, :length=>120, :omission => "[...]") %></td>
+          <td class="center"><%= status_widoku(foto.widoczne) %></td>
           <td class="actions">
-            <%= link_to "Show", {:action => 'pokaż', :id => zdjecie.id}, :class=> 'label label-default' %>
-            <%= link_to "Edit",  {:action => 'edycja', :id => zdjecie.id}, :class=> 'label label-primary' %>
-            <%= link_to "Delete",  {:action => 'usun', :id => zdjecie.id}, :class=> 'label label-danger'%>
+            <%= link_to "Show", {:action => 'pokaż', :id => foto.id}, :class=> 'label label-default' %>
+            <%= link_to "Edit",  {:action => 'edycja', :id => foto.id}, :class=> 'label label-primary' %>
+            <%= link_to "Delete",  {:action => 'usun', :id => foto.id}, :class=> 'label label-danger'%>
           </td>
         </tr>
 
