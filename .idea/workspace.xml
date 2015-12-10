@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db077fa4-15c3-439c-858f-bf9c5bba6ca3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/zdjecies/index.html.erb" afterPath="$PROJECT_DIR$/app/views/zdjecies/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/zdjecies/usun.html.erb" afterPath="$PROJECT_DIR$/app/views/zdjecies/usun.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/zdjecies_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/zdjecies_controller.rb" />
     </list>
     <ignored path="Gallery_course.iws" />
@@ -84,8 +82,8 @@
       <file leaf-file-name="zdjecies_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/zdjecies_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22739018">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.8488372">
+              <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -200,9 +198,9 @@
         <option value="$PROJECT_DIR$/app/views/zdjecies/pokaz.html.erb" />
         <option value="$PROJECT_DIR$/app/views/zdjecies/edycja.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/galeries_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/zdjecies_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/zdjecies/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/zdjecies/usun.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/zdjecies_controller.rb" />
       </list>
     </option>
   </component>
@@ -995,8 +993,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/zdjecies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22739018">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.8488372">
+          <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
           <folding />
         </state>
       </provider>
