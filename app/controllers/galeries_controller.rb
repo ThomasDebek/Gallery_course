@@ -39,7 +39,7 @@ class GaleriesController < ApplicationController
   end
 
   def edycja
-    @galeria = Galerie.find(params[:id])
+    @galeria = Galerie.sortuj
     @licznik = Galerie.count
   end
 

@@ -30,6 +30,21 @@ class ZdjeciesController < ApplicationController
   end
 
   def edycja
+    @zdjecie = Zdjecie.find(params[:id])
+    @licznik = Zdjecie.count + 1
+    @galeria = Galerie.order('pozycja ASC')
+  end
+
+  def aktualizuj
+    @zdjecie = Zdjecie.find(params[:id])
+    if @zdjecie.update_attributes(zdjecia_parametry)
+      flash[:notice] = "Zdjeice została pomyślnie zmodyfikowane"
+      redirect_to(:action => "pokaz", :id => @zdjecie.id)
+    else
+      @licznik = Zdjecie.count
+      @galeria = Galerie.order('pozycja ASC')
+      render("edycja")
+    end
   end
 
   def usun
