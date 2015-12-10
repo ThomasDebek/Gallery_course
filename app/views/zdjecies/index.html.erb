@@ -23,7 +23,7 @@
           <td><%= truncate(foto.opis, :length=>120, :omission => "[...]") %></td>
           <td class="center"><%= status_widoku(foto.widoczne) %></td>
           <td class="actions">
-            <%= link_to "Show", {:action => 'pokaż', :id => foto.id}, :class=> 'label label-default' %>
+            <%= link_to "Show", {:action => 'pokaz', :id => foto.id}, :class=> 'label label-default' %>
             <%= link_to "Edit",  {:action => 'edycja', :id => foto.id}, :class=> 'label label-primary' %>
             <%= link_to "Delete",  {:action => 'usun', :id => foto.id}, :class=> 'label label-danger'%>
           </td>

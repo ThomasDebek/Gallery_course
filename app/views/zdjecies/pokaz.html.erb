@@ -1,2 +1,52 @@
-<h1>Zdjecies#pokaz</h1>
-<p>Find me in app/views/zdjecies/pokaz.html.erb</p>
+<div class="hero-unit">
+  <h1>Pokaz Zdjecie </h1>
+  <table class="table table-striped">
+
+    <tr>
+      <th>Nazwa Galerii</th>
+      <td><%= @zdjecie.galerie.nazwa %></td>
+    </tr>
+    <tr>
+      <th>Nazwa Zdjecia</th>
+      <td><%= @zdjecie.nazwa %></td>
+    </tr>
+    <tr>
+      <th>Pozycja</th>
+      <td><%= @zdjecie.pozycja %></td>
+    </tr>
+    <tr>
+      <th>Czy widoczne?</th>
+      <td><%= @zdjecie.widoczne ? 'Tak' : 'Nie' %></td>
+    </tr>
+    <tr>
+      <th>Opis:</th>
+      <td><%= @zdjecie.opis %></td>
+    </tr>
+    <tr>
+      <th>Dodane:</th>
+      <td><%= @zdjecie.created_at %></td>
+    </tr>
+    <tr>
+      <th>Aktualizacja:</th>
+      <td><%= @zdjecie.updated_at %></td>
+    </tr>
+
+    <tr>
+      <th>Zdjecie:</th>
+      <td><%= image_tag(@zdjecie.zdjecie) %></td>
+    </tr>
+
+    <tr>
+      <th>Miniaturka:</th>
+      <td><%= image_tag(@zdjecie.zdjecie.url(:thumb)) %></td>
+    </tr>
+
+  </table>
+  <div style="text-align: center;">
+    <%= link_to("Powrót", {:action => 'index'}, :class => 'btn btn-primary')%>
+  </div>
+</div>
+
+
+
+
