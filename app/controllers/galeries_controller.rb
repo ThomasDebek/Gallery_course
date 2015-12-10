@@ -58,5 +58,6 @@ class GaleriesController < ApplicationController
     params.require(:galerie).permit(:nazwa, :pozycja, :opis,  :widoczna, :zdjecie)
   end
   
+  
 end
 
