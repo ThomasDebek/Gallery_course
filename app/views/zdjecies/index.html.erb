@@ -1,2 +1,36 @@
-<h1>Zdjecies#index</h1>
-<p>Find me in app/views/zdjecies/index.html.erb</p>
+<div class="hero-unit">
+  <h1>Zdjecia</h1>
+
+  <%= link_to 'Dodaj nowe zdjeciee', {:action => 'nowa' }, :class => 'btn btn-mini btn-primary' %>
+
+  <p style="text-align: right;">Ilosć zdjec: <%= @zdjecia.size %> </p>
+
+
+  <table class="table table-striped">
+    <tr class="info">
+      <th>Pozycja</th>
+      <th>Nazwa</th>
+      <th>Zdjecie</th>
+      <th>Opis[...}</th>
+      <th>Widoczne</th>
+      <th>akcja</th>
+    </tr>
+    <% @zdjecia.each do |foto| %>
+        <tr>
+          <td><%= foto.pozycja %></td>
+          <td><%= foto.nazwa %></td>
+          <td><%= image_tag zdjecie.zdjecie.url(:thumb) %></td>
+          <td><%= truncate(zdjecie.opis, :length=>120, :omission => "[...]") %></td>
+          <td class="center"><%= status_widoku(zdjecie.widoczne) %></td>
+          <td class="actions">
+            <%= link_to "Show", {:action => 'pokaż', :id => zdjecie.id}, :class=> 'label label-default' %>
+            <%= link_to "Edit",  {:action => 'edycja', :id => zdjecie.id}, :class=> 'label label-primary' %>
+            <%= link_to "Delete",  {:action => 'usun', :id => zdjecie.id}, :class=> 'label label-danger'%>
+          </td>
+        </tr>
+
+    <% end %>
+
+  </table>
+
+</div>
