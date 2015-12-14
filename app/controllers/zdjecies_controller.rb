@@ -62,7 +62,7 @@ class ZdjeciesController < ApplicationController
     params.require(:zdjecie).permit(:galerie_id, :nazwa, :pozycja, :widoczne, :zdjecie, :opis, :created_at)
   end
 
-  
+
 
 end
 

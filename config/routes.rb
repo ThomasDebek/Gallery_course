@@ -1,46 +1,10 @@
 Rails.application.routes.draw do
 
-  get 'zdjecies/index'
-
-  get 'zdjecies/nowa'
-
-  get 'zdjecies/pokaz'
-
-  get 'zdjecies/edycja'
-
-  get 'zdjecies/usun'
-
-  get 'galeries/index'
-
-  get 'galeries/nowa'
-
-  get 'galeries/pokaz'
-
-  get 'galeries/edycja'
-
-  get 'galeries/usun'
-
-  get 'artykuls/index'
-
-  get 'artykuls/nowy'
-
-  get 'artykuls/edycja'
-
-  get 'artykuls/usun'
-
-  get 'artykuls/pokaz'
-
-  get 'stronas/index'
-
-  get 'stronas/pokaz'
-
-  get 'stronas/nowa'
-
-  get 'stronas/edycja'
-
-  get 'stronas/usun'
 
   root 'test#index'
+
+
+  get 'admin', :to =>'dosteps#index'
 
   #get 'strona_glowna', to: 'test#index', as: :glowna
 
