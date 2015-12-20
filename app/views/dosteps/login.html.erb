@@ -1,2 +1,18 @@
-<h1>Dosteps#login</h1>
-<p>Find me in app/views/dosteps/login.html.erb</p>
+<div class="login">
+  <%= form_tag(:action => 'logowanie') do %>
+  <table>
+    <tr>
+      <td><%= label_tag(:uzytkownik, "Uzytkownik") %></td>
+      <td><%= text_field_tag(:uzytkownik) %></td>
+    </tr>
+    <tr>
+      <td><%= label_tag(:haslo, "Haslo") %></td>
+      <td><%= password_field_tag(:haslo) %></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><%= submit_tag("Zaloguj") %></td>
+    </tr>
+  </table>
+  <% end %>
+</div>
