@@ -20,7 +20,7 @@ class DostepsController < ApplicationController
     end
     if admin_autoryzacja
       session[:uzytkownik_id] = admin_autoryzacja.id
-      session[:uzytkownik ] = admin_autoryzacja.uzytkownik
+      session[:uzytkownik] = admin_autoryzacja.uzytkownik
       flash[:notice] = "Zostałes poprawnie zalogowany"
       redirect_to(:action => 'index')
     else
