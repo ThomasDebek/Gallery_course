@@ -1,2 +1,11 @@
-<h1>Uzytkowniks#edycja</h1>
-<p>Find me in app/views/uzytkowniks/edycja.html.erb</p>
+<div class="hero-unit">
+  <h1>Edit Uzytkownik: <%= @uzytkownik.imie + " " + @uzytkownik.nazwisko  %></h1>
+  <%= form_for(:uzytkownik, :url => {:action => 'aktualizuj', :id => @uzytkownik.id}) do |pole| %>
+      <%= render(:partial => "form", :locals => {:pole => pole }) %>
+      <div style="text-align: center;">
+        <%= link_to 'Back', {:action => 'index'}, :class => 'btn btn-warning'%>
+        <%= submit_tag("aktualizuj", :class => 'btn btn-primary') %>
+      </div>
+  <% end %>
+
+</div>
