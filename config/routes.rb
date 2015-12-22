@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
 
 
+  get 'uzytkowniks/index'
+
+  get 'uzytkowniks/nowy'
+
+  get 'uzytkowniks/edycja'
+
+  get 'uzytkowniks/usun'
+
   root 'test#index'
 
 
