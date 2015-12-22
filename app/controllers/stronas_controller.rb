@@ -6,7 +6,9 @@ class StronasController < ApplicationController
 
 
   def index
-    @stronas = Strona.sortuj
+    #@stronas = Strona.sortuj
+    @kategorie = Kategorie.find(params[:kategoria_id])
+    @stronas = @kategorie.strona.sortuj
   end
 
   def pokaż
