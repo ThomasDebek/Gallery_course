@@ -1,2 +1,33 @@
-<h1>Uzytkowniks#index</h1>
-<p>Find me in app/views/uzytkowniks/index.html.erb</p>
+<div class="hero-unit">
+  <h1>Uzytkownicy</h1>
+
+  <%= link_to 'Dodaj nowego uzytkonika', {:action => 'nowy' }, :class => 'btn btn-mini btn-primary' %>
+
+  <p style="text-align: right;">Ilosć uzytkownikow: <%= @uztkownik.size %> </p>
+
+
+  <table class="table table-striped">
+    <tr class="info">
+      <th>Uzytkownik</th>
+      <th>Imie i Nazwiskoth>
+      <th>email</th>
+      <th>Akcja</th>
+    </tr>
+    <% @uztkownik.each do |uzytkownik| %>
+        <tr>
+          <td><%= uzytkownik.uzytkownik %></td>
+          <td><%= uzytkownik.imie + " " + uzytkownik.nazwisko %></td>
+          <td><%= mail_to(uzytkownik.email) %></td>
+          <td class="actions">
+            <%= link_to "Edit",  {:action => 'edycja', :id => uzytkownik.id}, :class=> 'label label-primary' %>
+            <%= link_to "Delete",  {:action => 'usun', :id => uzytkownik.id}, :class=> 'label label-danger'%>
+          </td>
+        </tr>
+
+    <% end %>
+
+    <p><%= link_to 'Back to menu admin', :controller => "dosteps" %></p>
+
+  </table>
+
+</div>

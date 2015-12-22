@@ -11,8 +11,8 @@ class Uzytkownik < ActiveRecord::Base
             :presence => true
 
   validates :uzytkownik,
-            :length => {:within => 4..25, :message => "Nazwa uzytkownika musi zawierac sie pomiendzy 4 a 25 znakow"}
-            :uniqueness => true
+            :length => {:within => 4..25, :message => "Nazwa uzytkownika musi zawierac sie pomiendzy 4 a 25 znakow"},
+            :uniqueness =>true
 
   validates :email,
             :presence => true,

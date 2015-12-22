@@ -1,5 +1,10 @@
 class UzytkowniksController < ApplicationController
+
+  before_action :sprawdz_logowanie
+
+
   def index
+    @uztkownik = Uzytkownik.sortuj
   end
 
   def nowy
