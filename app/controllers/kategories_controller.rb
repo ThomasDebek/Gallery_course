@@ -56,6 +56,8 @@ class KategoriesController < ApplicationController
     end
   end
 
+  private
+
   def kategorie_parametry
     params.require(:kategoria).permit(:nazwa, :pozycja, :widoczna, :created_at)
   end
