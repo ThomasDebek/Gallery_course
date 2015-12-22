@@ -1,0 +1,32 @@
+<%= blad(@uzytkownik) %>
+
+<table class="table table-striped">
+  <tr>
+    <th><%= pole.label(:imie) %></th>
+    <th><%= pole.text_field(:imie, :class => 'form-control') %></th>
+  </tr>
+  <tr>
+    <th><%= pole.label(:nazwisko) %></th>
+    <th><%= pole.text_field(:nazwisko, :class => 'form-control') %></th>
+  </tr>
+  <tr>
+    <th><%= pole.label(:uzytkownik) %></th>
+    <th><%= pole.text_field(:uzytkownik, :class => 'form-control') %></th>
+  </tr>
+  <tr>
+    <th><%= pole.label(:email) %></th>
+    <th><%= pole.text_field(:email, :class => 'form-control') %></th>
+  </tr>
+  <tr>
+    <th><%= pole.label(:password, "haslo:") %></th>
+    <th><%= pole.password_field(:password, :class => 'form-control') %></th>
+  </tr>
+  <tr>
+    <th><%= pole.label(:password_confitmation, "powtorz haslo:") %></th>
+    <th><%= pole.password_field(:password_confitmation, :class => 'form-control') %></th>
+  </tr>
+
+
+</table>
+
+

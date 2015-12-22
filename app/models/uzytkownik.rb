@@ -5,19 +5,19 @@ class Uzytkownik < ActiveRecord::Base
   EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
 
   validates :imie,
-            :presence => true
+            :presence => {:in => true, :message => "pole nie moze byc puste"}
 
   validates :nazwisko,
-            :presence => true
+            :presence => {:in => true, :message => "pole nie moze byc puste"}
 
   validates :uzytkownik,
-            :length => {:within => 4..25, :message => "Nazwa uzytkownika musi zawierac sie pomiendzy 4 a 25 znakow"},
+            :length => {:within => 4..25, :message => "Nazwa uzytkownika musi zawierac sie pomiędzy 4 a 25 znakow"},
             :uniqueness =>true
 
   validates :email,
-            :presence => true,
+            :presence =>{:in => true, :message => "pole nie moze byc puste"},
             :length => {:maximum => 100},
-            :format => EMAIL_REGEX,
+            :format => {:with => EMAIL_REGEX, :message => "pole nie moze byc puste"},
             :confirmation => true
 
   scope :sortuj, lambda{order("nazwisko ASC, imie ASC")}
