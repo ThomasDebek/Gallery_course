@@ -1,2 +1,12 @@
-<h1>Uzytkowniks#usun</h1>
-<p>Find me in app/views/uzytkowniks/usun.html.erb</p>
+<div class="hero-unit">
+  <h1>Usun konto uzytkownika</h1>
+
+  <%= form_for(:uzytkownik, :url => {:action => 'kasuj', :id =>@uzytkownik.id}) do |pole| %>
+      <p>Czy napewno mam usunąc uzytkownika?</p>
+      <p class="text-warning"><%= @uzytkownik.imie + " " + @uzytkownik.nazwisko %></p>
+      <div style="text-align: center;">
+        <%= link_to 'Back', {:action => 'index'}, :class => 'btn btn-primary'%>
+        <%= submit_tag("Usuń", :class => 'btn btn-danger') %>
+      </div>
+  <% end %>
+</div>
