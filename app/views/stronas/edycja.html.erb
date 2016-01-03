@@ -1,9 +1,9 @@
 <div class="hero-unit">
   <h1>Edit Strona: <%= @strona.nazwa %></h1>
-  <%= form_for(:strona, :url => {:action => 'aktualizuj', :id => @strona.id}) do |pole| %>
+  <%= form_for(:strona, :url => {:action => 'aktualizuj', :id => @strona.id, :kategorie_id => @kategorie.id}) do |pole| %>
       <%= render(:partial => "form", :locals => {:pole => pole }) %>
       <div style="text-align: center;">
-        <%= link_to 'Back', {:action => 'index'}, :class => 'btn btn-warning'%>
+        <%= link_to 'Back', {:action => 'index', :kategorie_id => @kategorie.id}, :class => 'btn btn-warning'%>
         <%= submit_tag("aktualizuj", :class => 'btn btn-primary') %>
       </div>
   <% end %>
