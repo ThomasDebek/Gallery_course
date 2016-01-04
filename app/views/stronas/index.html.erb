@@ -4,7 +4,7 @@
 
   <h1>Strona</h1>
 
-  <%= link_to 'Dodaj nowa strone', {:action => 'nowa', :kategorie_id => @kategorie.id }, :class => 'btn btn-mini btn-primary' %>
+  <%= link_to 'Dodaj nowa strone', {:action => 'nowa', :kategoria_id => @kategorie.id }, :class => 'btn btn-mini btn-primary' %>
 
   <p style="text-align: right;">Ilosć stron: <%= @stronas.size %> </p>
 
@@ -24,9 +24,9 @@
           <td class="center"><%= status_widoku(strona.widoczna) %></td>
           <td class="center"><%= strona.artykul.size %></td>
           <td class="actions">
-            <%= link_to "Show", {:action => 'pokaż', :id => strona.id, :kategorie_id => @kategorie.id}, :class=> 'label label-default' %>
-            <%= link_to "Edit",  {:action => 'edycja', :id => strona.id, :kategorie_id => @kategorie.id}, :class=> 'label label-primary' %>
-            <%= link_to "Delete",  {:action => 'usun', :id => strona.id, :kategorie_id => @kategorie.id}, :class=> 'label label-danger'%>
+            <%= link_to "Show", {:action => 'pokaż', :id => strona.id, :kategoria_id => @kategorie.id}, :class=> 'label label-default' %>
+            <%= link_to "Edit",  {:action => 'edycja', :id => strona.id, :kategoria_id => @kategorie.id}, :class=> 'label label-primary' %>
+            <%= link_to "Delete",  {:action => 'usun', :id => strona.id, :kategoria_id => @kategorie.id}, :class=> 'label label-danger'%>
           </td>
         </tr>
 

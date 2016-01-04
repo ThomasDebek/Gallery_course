@@ -35,7 +35,7 @@ class StronasController < ApplicationController
     @strona = Strona.new(strona_parametry)
     if @strona.save
      flash[:notice] = "Strona została pomyslnie utworzona"
-    redirect_to(:action => 'index', :kategorie_id => @kategorie.id )
+    redirect_to(:action => 'index', :kategoria_id => @kategorie.id )
   else
     @licznik = Strona.count +1
     @kategoria = Kategorie.order('pozycja ASC')
@@ -47,7 +47,7 @@ class StronasController < ApplicationController
     @strona = Strona.find(params[:id])
     if @strona.update_attributes(strona_parametry)
       flash[:notice] = "Strona została pomyslnie zmodyfikowana"
-      redirect_to(:action => 'pokaż', :id => @strona.id, :kategorie_id => @kategorie.id)
+      redirect_to(:action => 'pokaż', :id => @strona.id, :kategoria_id => @kategorie.id )
     else
       @licznik = Strona.count
       @kategoria = Kategorie.order('pozycja ASC')
@@ -59,7 +59,7 @@ class StronasController < ApplicationController
   def kasuj
     @strona= Strona.find(params[:id]).destroy
     flash[:notice] = "Strona '#{@strona.nazwa}'  została pomyslnie usunieta"
-    redirect_to(:action => 'index', :kategorie_id => @kategorie.id)
+    redirect_to(:action => 'index', :kategoria_id => @kategorie.id )
   end
 
 
@@ -76,7 +76,7 @@ class StronasController < ApplicationController
 
 
 
-end
+end 
 
 
 

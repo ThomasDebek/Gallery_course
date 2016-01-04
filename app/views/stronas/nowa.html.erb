@@ -2,12 +2,12 @@
   <h1>New strona</h1>
 
 
-  <%= form_for(:strona, :url => {:action => 'utworz', :kategorie_id => @kategorie.id}) do |strona| %>
+  <%= form_for(:strona, :url => {:action => 'utworz', :kategoria_id => @kategorie.id}) do |strona| %>
 
       <%= render(:partial => "form", :locals => {:pole => strona }) %>
 
       <div style="text-align: center">
-        <%= link_to 'Back', {:action => 'index', :kategorie_id => @kategorie.id}, :class => 'btn btn-warning'%>
+        <%= link_to 'Back', {:action => 'index', :kategoria_id => @kategorie.id}, :class => 'btn btn-warning'%>
         <%= submit_tag("Utworz", :class => 'btn btn-primary')%>
       </div>
   <% end %>
