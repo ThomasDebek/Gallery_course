@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db077fa4-15c3-439c-858f-bf9c5bba6ca3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/artykuls_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/artykuls_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/artykuls/edycja.html.erb" afterPath="$PROJECT_DIR$/app/views/artykuls/edycja.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/artykuls/index.html.erb" afterPath="$PROJECT_DIR$/app/views/artykuls/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/artykuls/nowy.html.erb" afterPath="$PROJECT_DIR$/app/views/artykuls/nowy.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/artykuls/pokaż.html.erb" afterPath="$PROJECT_DIR$/app/views/artykuls/pokaż.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/artykuls/usun.html.erb" afterPath="$PROJECT_DIR$/app/views/artykuls/usun.html.erb" />
-    </list>
+    <list default="true" id="db077fa4-15c3-439c-858f-bf9c5bba6ca3" name="Default" comment="" />
     <ignored path="Gallery_course.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/components/" />
