@@ -1,4 +1,9 @@
 <div class="hero-unit">
+
+
+  <%= link_to '<< Powrot do strony', {:controller => 'stronas', :action => 'index', :kategoria_id => @strony.kategorie.id }, :class => 'btn btn-xs btn-default' %>
+
+
   <h1>Artykuly</h1>
 
   <%= link_to 'Dodaj nowy artykul', {:action => 'nowy' }, :class => 'btn btn-mini btn-primary' %>
@@ -21,9 +26,9 @@
           <td><%= artykul.nazwa %></td>
           <td class="center"><%= status_widoku(artykul.widoczny) %></td>
           <td class="actions">
-            <%= link_to "Show", {:action => 'pokaż', :id => artykul.id}, :class=> 'label label-default' %>
-            <%= link_to "Edit",  {:action => 'edycja', :id => artykul.id}, :class=> 'label label-primary' %>
-            <%= link_to "Delete",  {:action => 'usun', :id => artykul.id}, :class=> 'label label-danger'%>
+            <%= link_to "Show", {:action => 'pokaż', :id => artykul.id, :strona_id => @strony.id }, :class=> 'label label-default' %>
+            <%= link_to "Edit",  {:action => 'edycja', :id => artykul.id, :strona_id => @strony.id}, :class=> 'label label-primary' %>
+            <%= link_to "Delete",  {:action => 'usun', :id => artykul.id, :strona_id => @strony.id}, :class=> 'label label-danger'%>
           </td>
         </tr>
 

@@ -24,6 +24,7 @@
           <td class="center"><%= status_widoku(strona.widoczna) %></td>
           <td class="center"><%= strona.artykul.size %></td>
           <td class="actions">
+            <%= link_to "Artykuly", {:controller => 'artykuls', :strona_id => strona.id}, :class => 'label label-success' %>
             <%= link_to "Show", {:action => 'pokaż', :id => strona.id, :kategoria_id => @kategorie.id}, :class=> 'label label-default' %>
             <%= link_to "Edit",  {:action => 'edycja', :id => strona.id, :kategoria_id => @kategorie.id}, :class=> 'label label-primary' %>
             <%= link_to "Delete",  {:action => 'usun', :id => strona.id, :kategoria_id => @kategorie.id}, :class=> 'label label-danger'%>
