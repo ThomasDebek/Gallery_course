@@ -2,12 +2,12 @@
   <h1>New artykul</h1>
 
 
-  <%= form_for(:artykuly, :url => {:action => 'utworz'}) do |pole| %>
+  <%= form_for(:artykuly, :url => {:action => 'utworz', :strona_id => @strony.id}) do |pole| %>
 
       <%= render(:partial => "form", :locals => {:pole => pole }) %>
 
       <div style="text-align: center">
-        <%= link_to 'Back', {:action => 'index'}, :class => 'btn btn-warning'%>
+        <%= link_to 'Back', {:action => 'index', :strona_id => @strony.id}, :class => 'btn btn-warning'%>
         <%= submit_tag("Utworz", :class => 'btn btn-primary')%>
       </div>
   <% end %>

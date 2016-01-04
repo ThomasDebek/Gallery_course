@@ -1,11 +1,11 @@
 <div class="hero-unit">
   <h1>Usun artykul</h1>
 
-  <%= form_for(:artykuly, :url => {:action => 'kasuj', :id =>@artykuly.id}) do |pole| %>
+  <%= form_for(:artykuly, :url => {:action => 'kasuj', :id =>@artykuly.id, :strona_id => @strony.id}) do |pole| %>
       <p>Czy napewno mam usunąc artykul?</p>
       <p class="text-warning"><%= @artykuly.nazwa %></p>
       <div style="text-align: center;">
-        <%= link_to 'Back', {:action => 'index'}, :class => 'btn btn-primary'%>
+        <%= link_to 'Back', {:action => 'index', :strona_id => @strony.id}, :class => 'btn btn-primary'%>
         <%= submit_tag("Usuń", :class => 'btn btn-danger') %>
       </div>
   <% end %>

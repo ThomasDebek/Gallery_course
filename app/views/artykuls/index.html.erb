@@ -6,7 +6,7 @@
 
   <h1>Artykuly</h1>
 
-  <%= link_to 'Dodaj nowy artykul', {:action => 'nowy' }, :class => 'btn btn-mini btn-primary' %>
+  <%= link_to 'Dodaj nowy artykul', {:action => 'nowy', :strona_id => @strony.id }, :class => 'btn btn-mini btn-primary' %>
 
   <p style="text-align: right;">Ilosć artykulow: <%= @artykuly.size %> </p>
 
