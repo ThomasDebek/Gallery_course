@@ -1,7 +1,9 @@
 <div class="hero-unit">
+  <%= link_to '<< Powrot do galerii', {:controller => 'galeries', :action => 'index'}, :class => 'btn btn-xs btn-default' %>
+
   <h1>Zdjecia</h1>
 
-  <%= link_to 'Dodaj nowe zdjecie', {:action => 'nowe' }, :class => 'btn btn-mini btn-primary' %>
+  <%= link_to 'Dodaj nowe zdjecie', {:action => 'nowe', :galerie_id => @galerie.id }, :class => 'btn btn-mini btn-primary' %>
 
   <p style="text-align: right;">Ilosć zdjec: <%= @zdjecia.size %> </p>
 
@@ -15,17 +17,17 @@
       <th>Widoczne</th>
       <th>akcja</th>
     </tr>
-    <% @zdjecia.each do |foto| %>
+    <% @zdjecia.each do |zdjecie| %>
         <tr>
-          <td><%= foto.pozycja %></td>
-          <td><%= foto.nazwa %></td>
-          <td><%= image_tag foto.zdjecie.url(:thumb) %></td>
-          <td><%= truncate(foto.opis, :length=>50, :omission => "[...]") %></td>
-          <td class="center"><%= status_widoku(foto.widoczne) %></td>
+          <td><%= zdjecie.pozycja %></td>
+          <td><%= zdjecie.nazwa %></td>
+          <td><%= image_tag zdjecie.zdjecie.url(:thumb) %></td>
+          <td><%= truncate(zdjecie.opis, :length=>50, :omission => "[...]") %></td>
+          <td class="center"><%= status_widoku(zdjecie.widoczne) %></td>
           <td class="actions">
-            <%= link_to "Show", {:action => 'pokaz', :id => foto.id}, :class=> 'label label-default' %>
-            <%= link_to "Edit",  {:action => 'edycja', :id => foto.id}, :class=> 'label label-primary' %>
-            <%= link_to "Delete",  {:action => 'usun', :id => foto.id}, :class=> 'label label-danger'%>
+            <%= link_to "Show", {:action => 'pokaz', :id => zdjecie.id, :galerie_id => @galerie.id}, :class=> 'label label-default' %>
+            <%= link_to "Edit",  {:action => 'edycja', :id => zdjecie.id, :galerie_id => @galerie.id}, :class=> 'label label-primary' %>
+            <%= link_to "Delete",  {:action => 'usun', :id => zdjecie.id, :galerie_id => @galerie.id}, :class=> 'label label-danger'%>
           </td>
         </tr>
 

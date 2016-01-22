@@ -1,6 +1,6 @@
 class Zdjecie < ActiveRecord::Base
-  belongs_to :galerie
 
+  belongs_to :galerie
 
   has_attached_file :zdjecie,
                     :styles => {:medium => "600x600>", :thumb => "200x200>" }
@@ -19,7 +19,7 @@ class Zdjecie < ActiveRecord::Base
 
   scope :widoczne, lambda{where(:widoczne => true)}
   scope :niewidoczne, lambda{where(:widoczne => false)}
-  scope :sortuj, lambda{order("zdjecies.pozycja ASC")}
+  scope :sortuj, lambda{order('zdjecies.pozycja ASC')}
   scope :najnowsze, lambda{order("zdjecies.created_at DESC")}
 
 

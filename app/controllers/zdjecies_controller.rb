@@ -1,12 +1,12 @@
 class ZdjeciesController < ApplicationController
 
-
   layout 'admin'
 
   before_action :sprawdz_logowanie
+  before_action :szukaj_galerie
 
   def index
-    @zdjecia = Zdjecie.sortuj
+    @zdjecia = @galerie.zdjecie.sortuj
   end
 
   def nowe
@@ -57,15 +57,19 @@ class ZdjeciesController < ApplicationController
     zdjecie = Zdjecie.find(params[:id]).destroy
     flash[:notice] = "Zdjeicie #{zdjecie.nazwa}  zostało pomyślnie usuniete"
     redirect_to(:action => "index")
+  end
 
+  private
+
+  def szukaj_galerie
+    if params[:galerie_id]
+      @galerie = Galerie.find(params[:galerie_id])
+    end
   end
 
   def zdjecia_parametry
     params.require(:zdjecie).permit(:galerie_id, :nazwa, :pozycja, :widoczne, :zdjecie, :opis, :created_at)
   end
-
-
-
 end
 
 
