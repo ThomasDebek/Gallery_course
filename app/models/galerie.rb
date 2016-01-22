@@ -1,6 +1,6 @@
 class Galerie < ActiveRecord::Base
 
-  has_many :zdjecie
+  has_many :zdjecie #class_name: "Zdjecie"
 
   has_attached_file :zdjecie,
                      :styles => {:medium => "600x600>", :thumb => "200x200>" }
