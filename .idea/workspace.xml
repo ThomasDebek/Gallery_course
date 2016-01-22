@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db077fa4-15c3-439c-858f-bf9c5bba6ca3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/002/medium/item171x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/002/original/item171x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/002/thumb/item171x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/013/medium/961_dsc04033.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/013/original/961_dsc04033.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/013/thumb/961_dsc04033.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/014/medium/dsc04744.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/014/original/dsc04744.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/014/thumb/dsc04744.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/015/medium/roleta_w_bialym_osprzecie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/015/original/roleta_w_bialym_osprzecie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/015/thumb/roleta_w_bialym_osprzecie.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Gallery_course.iml" afterPath="$PROJECT_DIR$/.idea/Gallery_course.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/galerie.rb" afterPath="$PROJECT_DIR$/app/models/galerie.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/galeries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/galeries_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galeries/index.html.erb" afterPath="$PROJECT_DIR$/app/views/galeries/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/zdjecies/index.html.erb" afterPath="$PROJECT_DIR$/app/views/zdjecies/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/zdjecie.rb" afterPath="$PROJECT_DIR$/app/models/zdjecie.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/zdjecies_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/zdjecies_controller.rb" />
     </list>
     <ignored path="Gallery_course.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,8 +62,8 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/galeries/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.511811">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.56299216">
+              <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -176,12 +155,12 @@
         <option value="$PROJECT_DIR$/app/views/galeries/edycja.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galeries/nowa.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galeries/usun.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/galeries/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/zdjecie.rb" />
         <option value="$PROJECT_DIR$/app/models/galerie.rb" />
         <option value="$PROJECT_DIR$/app/controllers/zdjecies_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/zdjecies/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/galeries/index.html.erb" />
       </list>
     </option>
   </component>
@@ -982,8 +961,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/galeries/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.511811">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.56299216">
+          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
           <folding />
         </state>
       </provider>
