@@ -1,7 +1,7 @@
 <div class="hero-unit">
   <h1>Usun Galerie</h1>
 
-  <%= form_for(:galerie, :url => {:action => 'kasuj', :id =>@galeria.id}) do |pole| %>
+  <%= form_for(:galeria, :url => {:action => 'kasuj', :id => @galeria.id}) do |pole| %>
       <p>Czy napewno mam usunąc galerie?</p>
       <p class="text-warning"><%= @galeria.nazwa %></p>
       <div style="text-align: center;">
