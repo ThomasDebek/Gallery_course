@@ -25,7 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 
 # dołanczanie zdjec""
-gem 'paperclip', '~> 3.5.4'
+gem 'paperclip', '~> 4.3.2'
 
 
 # Use ActiveModel has_secure_password
