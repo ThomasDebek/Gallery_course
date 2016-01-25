@@ -19,7 +19,7 @@ class Zdjecie < ActiveRecord::Base
 
   scope :widoczne, lambda{where(:widoczne => true)}
   scope :niewidoczne, lambda{where(:widoczne => false)}
-  scope :sortuj, lambda{order('zdjecies.pozycja ASC')}
+  scope :sortuj, lambda{order("zdjecies.pozycja ASC")}
   scope :najnowsze, lambda{order("zdjecies.created_at DESC")}
 
 

@@ -6,7 +6,7 @@ class ZdjeciesController < ApplicationController
   before_action :szukaj_galerie
 
   def index
-    @zdjecia = @galerie.zdjecie.sortuj
+    @zdjecia = @galerie.zdjecies.sortuj
   end
 
   def nowe
