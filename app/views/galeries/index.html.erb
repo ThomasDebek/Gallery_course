@@ -19,7 +19,7 @@
           <td><%= galerie.nazwa %></td>
           <td><%= galerie.pozycja %></td>
           <td class="center"><%= status_widoku(galerie.widoczna) %></td>
-          <td class="center"><%= galerie.zdjecie.size %></td>
+          <td class="center"><%= galerie.zdjecies.size %></td>
           <td class="actions">
             <%= link_to "Zdjecia", {:controller => 'zdjecies', :galerie_id => galerie.id}, :class=> 'label label-success' %>
             <%= link_to "Show", {:action => 'pokaż', :id => galerie.id}, :class=> 'label label-default' %>

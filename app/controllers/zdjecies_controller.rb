@@ -10,7 +10,7 @@ class ZdjeciesController < ApplicationController
   end
 
   def nowe
-    @zdjecie = Zdjecie.new({:nazwa => "Wprowadz nazwę zdjecia"})
+    @zdjecie = Zdjecie.new({:galerie_id => @galerie.id, :nazwa => "Wprowadz nazwę zdjecia"})
     @licznik = Zdjecie.count + 1
     @galeria = Galerie.order('pozycja ASC')
   end
@@ -19,7 +19,7 @@ class ZdjeciesController < ApplicationController
     @zdjecie = Zdjecie.new(zdjecia_parametry)
     if @zdjecie.save
       flash[:notice] = "Zdjecie zostalo pomyslnie utworzone"
-      redirect_to(:action => "index")
+      redirect_to(:action => "index", :galerie_id => @galerie.id )
     else
       @licznik = Zdjecie.count +1
       @galeria = Galerie.order('pozycja ASC')
@@ -41,7 +41,7 @@ class ZdjeciesController < ApplicationController
     @zdjecie = Zdjecie.find(params[:id])
     if @zdjecie.update_attributes(zdjecia_parametry)
       flash[:notice] = "Zdjeice została pomyślnie zmodyfikowane"
-      redirect_to(:action => "pokaz", :id => @zdjecie.id)
+      redirect_to(:action => "pokaz", :id => @zdjecie.id,  :galerie_id => @galerie.id)
     else
       @licznik = Zdjecie.count
       @galeria = Galerie.order('pozycja ASC')
@@ -56,10 +56,14 @@ class ZdjeciesController < ApplicationController
   def kasuj
     zdjecie = Zdjecie.find(params[:id]).destroy
     flash[:notice] = "Zdjeicie #{zdjecie.nazwa}  zostało pomyślnie usuniete"
-    redirect_to(:action => "index")
+    redirect_to(:action => "index", :galerie_id => @galerie.id)
   end
 
   private
+
+  def zdjecia_parametry
+    params.require(:zdjecia).permit(:galerie_id, :nazwa, :pozycja, :widoczne, :zdjecie, :opis, :created_at)
+  end
 
   def szukaj_galerie
     if params[:galerie_id]
@@ -67,9 +71,6 @@ class ZdjeciesController < ApplicationController
     end
   end
 
-  def zdjecia_parametry
-    params.require(:zdjecie).permit(:galerie_id, :nazwa, :pozycja, :widoczne, :zdjecie, :opis, :created_at)
-  end
 end
 
 
