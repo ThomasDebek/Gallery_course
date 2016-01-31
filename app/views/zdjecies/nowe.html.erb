@@ -2,12 +2,12 @@
   <h1>Nowe zdjecie</h1>
 
 
-  <%= form_for(:zdjecie, :url => {:action => 'utworz'}) do |pole| %>
+  <%= form_for(:zdjecie, :url => {:action => 'utworz', :galerie_id => @galerie.id}) do |pole| %>
 
       <%= render(:partial => "form", :locals => {:pole => pole }) %>
 
       <div style="text-align: center">
-        <%= link_to 'Back', {:action => 'index'}, :class => 'btn btn-warning'%>
+        <%= link_to 'Back', {:action => 'index', :galerie_id => @galerie.id}, :class => 'btn btn-warning'%>
         <%= submit_tag("Utworz", :class => 'btn btn-primary')%>
       </div>
   <% end %>

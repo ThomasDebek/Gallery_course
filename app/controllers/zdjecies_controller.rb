@@ -41,7 +41,7 @@ class ZdjeciesController < ApplicationController
     @zdjecie = Zdjecie.find(params[:id])
     if @zdjecie.update_attributes(zdjecia_parametry)
       flash[:notice] = "Zdjeice została pomyślnie zmodyfikowane"
-      redirect_to(:action => "pokaz", :id => @zdjecie.id,  :galerie_id => @galerie.id)
+      redirect_to(:action => "pokaz", :id => @zdjecie.id, :galerie_id => @galerie.id)
     else
       @licznik = Zdjecie.count
       @galeria = Galerie.order('pozycja ASC')
@@ -62,7 +62,7 @@ class ZdjeciesController < ApplicationController
   private
 
   def zdjecia_parametry
-    params.require(:zdjecia).permit(:galerie_id, :nazwa, :pozycja, :widoczne, :zdjecie, :opis, :created_at)
+    params.require(:zdjecie).permit(:galerie_id, :nazwa, :pozycja, :widoczne, :zdjecie, :opis, :created_at)
   end
 
   def szukaj_galerie

@@ -1,14 +1,14 @@
 <div class="hero-unit">
   <h1>Usun Zdjecie</h1>
 
-  <%= form_for(:zdjecie, :url => {:action => 'kasuj', :id =>@zdjecie.id}) do |pole| %>
+  <%= form_for(:zdjecie, :url => {:action => 'kasuj', :id =>@zdjecie.id, :galerie_id => @galerie.id}) do |pole| %>
       <p>Czy napewno mam usunąc zdjecie?</p>
       <p class="text-warning"><%= @zdjecie.nazwa %></p>
 
       <p class="text-warning"><%= image_tag( @zdjecie.zdjecie) %></p>
 
       <div style="text-align: center;">
-        <%= link_to 'Back', {:action => 'index'}, :class => 'btn btn-primary'%>
+        <%= link_to 'Back', {:action => 'index', :galerie_id => @galerie.id}, :class => 'btn btn-primary'%>
         <%= submit_tag("Usuń", :class => 'btn btn-danger') %>
       </div>
   <% end %>
