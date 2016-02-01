@@ -4,6 +4,9 @@ class PublicController < ApplicationController
 
 
   def index
+    @strona = Strona.where(:widoczna => true).last(3)
+    @artykuly = Artykul.where(:widoczny => true).last(3)
+    @galerie = Galerie.where(:widoczna => true).last(3)
   end
 
   def artykuly
