@@ -1,16 +1,36 @@
-<h1>Public#index</h1>
-<p>Find me in app/views/public/index.html.erb</p>
+<% @tytul_strony = "Strona Główna" %>
 
 
-<div>
-  <%= @strona.first.nazwa %>
+<!-- Gora strony poczatek -->
+<div class="header-image">
+  <div class="headline"> 
+    <div class="container">
+      <h2>Inni dopiero się uczą</h2>
+      <h1>You already know</h1>
+    </div>
+  </div>
 </div>
-<br>
-<div>
-  <%= @artykuly.last.nazwa %>
+<!-- Gora strony koniec -->
+
+<div class="container marketing">
+  <!-- Trzy kolumny zdjecia + opis + linki początek -->
+  <div class="row">
+    <% @artykuly.each do |artykul|%>
+        <div class="col-lg-4">
+          <%= image_tag(artykul.zdjecie.url(:thumb), :class => "img-circle") %>
+          <h2><%= artykul.nazwa %></h2>
+          <p><%= truncate(artykul.zawartosc, :length => 200, :omission =>"[...]") %></p>
+          <p><%= link_to("Zobacz artykuł >>", {:action => "nowosci", :artykul_id => artykul.id}, :class => "btn btn-default") %></p>
+        </div>
+    <% end %>
+  </div>
+  <!-- Trzy kolumny zdjecia + opis + linki koniec -->
+
+  <!-- Galerie początek -->
+  <!-- Galerie koniec -->
+
 </div>
-<br>
-<div>
-  <%= @galerie.count %>
-</div>
+
+
+
 
