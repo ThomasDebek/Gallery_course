@@ -3,7 +3,7 @@
 
 <!-- Gora strony poczatek -->
 <div class="header-image">
-  <div class="headline"> 
+  <div class="headline">
     <div class="container">
       <h2>Inni dopiero się uczą</h2>
       <h1>You already know</h1>
@@ -27,6 +27,35 @@
   <!-- Trzy kolumny zdjecia + opis + linki koniec -->
 
   <!-- Galerie początek -->
+  <% lp=1 %>
+  <% @galerie.each do |galeria| %>
+      <hr class="featurette-divider">
+      <% if lp % 2 == 0 %>
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading"><%= galeria.nazwa %></h2>
+              <p class="lead"><%= truncate(galeria.opis, :length => 300, :omission =>"[...]") %></p>
+              <p><%= link_to("Zobacz galerię >>", {:action => "galerie", :galeria_id => galeria.id}, :class => "btn btn-default") %></p>
+            </div>
+            <div class="col-md-5">
+              <%= image_tag(galeria.zdjecie.url, :class => "featurette-image img-circle img-responsive pull-right") %>
+            </div>
+          </div>
+      <% else %>
+          <div class="row featurette">
+            <div class="col-md-5">
+              <%= image_tag(galeria.zdjecie.url, :class => "featurette-image img-circle img-responsive pull-right") %>
+            </div>
+            <div class="col-md-7">
+              <h2 class="featurette-heading"><%= galeria.nazwa %></h2>
+              <p class="lead"><%= truncate(galeria.opis, :length => 300, :omission =>"[...]") %></p>
+              <p><%= link_to("Zobacz galerię >>", {:action => "galerie", :galeria_id => galeria.id}, :class => "btn btn-default") %></p>
+            </div>
+          </div>
+      <% end %>
+      <% lp+=1 %>
+  <% end %>
+  <hr class="featurette-divider">
   <!-- Galerie koniec -->
 
 </div>
