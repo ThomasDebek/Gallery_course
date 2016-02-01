@@ -1,15 +1,9 @@
 Rails.application.routes.draw do
 
 
-  get 'uzytkowniks/index'
+  #root 'test#index'
 
-  get 'uzytkowniks/nowy'
-
-  get 'uzytkowniks/edycja'
-
-  get 'uzytkowniks/usun'
-
-  root 'test#index'
+  root 'public#index'
 
 
   get 'admin', :to =>'dosteps#index'
