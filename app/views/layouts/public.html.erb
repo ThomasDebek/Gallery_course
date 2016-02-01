@@ -9,15 +9,25 @@
 <body>
 
 <!-- nawigacja począte -->
-
+<%= render(:partial => "menu") %>
 <!-- nawigacja koniec -->
 
-<!-- tresc strony początek -->
 
+
+
+
+<!-- tresc strony początek -->
+<div id="content">
+    <%= yield %>
+</div>
 <!-- tresc strony koniec -->
 
-<!-- stopka początek -->
 
+
+<!-- stopka początek -->
+    <div id="footer">
+      <br>TomaszDebeb 2016 &copy; <a href="http://www.google.pl" target="_blank">http://www.google.pl</a>
+    </div>
 <!-- stopka koniec -->
 
 </body>
