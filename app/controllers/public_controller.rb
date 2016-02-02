@@ -17,6 +17,7 @@ class PublicController < ApplicationController
   end
 
   def kategorie
+    @kategoria = Kategorie.find(params[:kategoria_id])
   end
 
   def nowosci
