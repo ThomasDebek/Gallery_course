@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db077fa4-15c3-439c-858f-bf9c5bba6ca3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/public/kategorie.html.erb" afterPath="$PROJECT_DIR$/app/views/public/kategorie.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/public/galerie.html.erb" afterPath="$PROJECT_DIR$/app/views/public/galerie.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/public_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/public_controller.rb" />
     </list>
     <ignored path="Gallery_course.iws" />
@@ -44,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/public_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -100,20 +100,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="galerie.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="galerie.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/public/galerie.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.23508137">
+              <caret line="10" column="96" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="96" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_menu.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_menu.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/public/_menu.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85895115">
+            <state vertical-scroll-proportion="-21.59091">
               <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
@@ -151,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/test/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/uzytkowniks/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/uzytkowniks/nowy.html.erb" />
         <option value="$PROJECT_DIR$/app/views/uzytkowniks/_form.html.erb" />
@@ -200,8 +199,9 @@
         <option value="$PROJECT_DIR$/app/views/public/nowosci.html.erb" />
         <option value="$PROJECT_DIR$/app/views/public/artykuly.html.erb" />
         <option value="$PROJECT_DIR$/app/views/public/strona.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/public_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/public/kategorie.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/public_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/public/galerie.html.erb" />
       </list>
     </option>
   </component>
@@ -213,8 +213,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="752" />
-    <option name="y" value="171" />
+    <option name="x" value="393" />
+    <option name="y" value="475" />
     <option name="width" value="1080" />
     <option name="height" value="664" />
   </component>
@@ -554,7 +554,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="752" y="171" width="1080" height="664" extended-state="0" />
+    <frame x="393" y="475" width="1080" height="664" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -955,14 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/public/galerie.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/public/artykuly.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.318182">
@@ -979,14 +971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/public_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/public/kategorie.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.318182">
@@ -997,8 +981,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/public/_menu.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85895115">
+        <state vertical-scroll-proportion="-21.59091">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/public_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/public/galerie.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23508137">
+          <caret line="10" column="96" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="96" />
           <folding />
         </state>
       </provider>

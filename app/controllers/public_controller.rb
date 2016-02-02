@@ -14,6 +14,7 @@ class PublicController < ApplicationController
   end
 
   def galerie
+    @galeria = Galerie.find(params[:galeria_id])
   end
 
   def kategorie
