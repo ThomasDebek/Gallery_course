@@ -19,7 +19,7 @@
       <div class="row">
         <% zdjecie.each do |zdj| %>
             <div class="col-md-4">
-              <a class="example-image-link" href="<%= zdj.zdjecie.url %>" data-lightbox="example-set" title="<%= zdj.opis %>">
+              <a class="example-image-link" href="<%= zdj.zdjecie.url %>" data-lightbox="roadtrip" title="<%= zdj.opis %>">
                 <%= image_tag(zdj.zdjecie.url(:thumb), :class => "img-circle") %>
               </a>
               <br>
