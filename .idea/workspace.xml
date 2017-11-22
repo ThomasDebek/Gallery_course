@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db077fa4-15c3-439c-858f-bf9c5bba6ca3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/kategorie.rb" afterPath="$PROJECT_DIR$/app/models/kategorie.rb" />
     </list>
     <ignored path="Gallery_course.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kategorie.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="kategorie.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/kategorie.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="13">
+              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -77,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="78">
@@ -134,7 +135,6 @@
         <option value="$PROJECT_DIR$/app/views/artykuls/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/artykuls_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/strona.rb" />
-        <option value="$PROJECT_DIR$/app/models/kategorie.rb" />
         <option value="$PROJECT_DIR$/app/views/zdjecies/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galeries/edycja.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galeries/nowa.html.erb" />
@@ -164,6 +164,7 @@
         <option value="$PROJECT_DIR$/app/views/public/galerie.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/kategorie.rb" />
       </list>
     </option>
   </component>
@@ -174,8 +175,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-26" />
-    <option name="y" value="59" />
+    <option name="x" value="250" />
+    <option name="y" value="92" />
     <option name="width" value="1034" />
     <option name="height" value="538" />
   </component>
@@ -205,13 +206,13 @@
             <path>
               <item name="Gallery_course" type="b2602c69:ProjectViewProjectNode" />
               <item name="Gallery_course" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Gallery_course" type="b2602c69:ProjectViewProjectNode" />
               <item name="Gallery_course" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -452,15 +453,15 @@
       <option name="presentableId" value="Default" />
       <updated>1443724900922</updated>
       <workItem from="1511374227496" duration="1161000" />
-      <workItem from="1511380615825" duration="647000" />
+      <workItem from="1511380615825" duration="943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1808000" />
+    <option name="totallyTimeSpent" value="2104000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-26" y="59" width="1034" height="538" extended-state="0" />
+    <frame x="250" y="92" width="1034" height="538" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27217743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -854,22 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/kategorie.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/strona.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/uzytkownik.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -906,6 +891,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/strona.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/kategorie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding />
         </state>
       </provider>
