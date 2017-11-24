@@ -22,7 +22,7 @@ class ArtykulsController < ApplicationController
     @artykuly = Artykul.new({:strona_id => @strony.id, :nazwa=>"Tytuł?"})
       # @strona = Strona.order('pozycja ASC')
 
-    @strona = @strony.kategorie.strona.sortuj
+    @strona = @strony.kategorie.stronas.sortuj
     @licznik = Artykul.count + 1
   end
 

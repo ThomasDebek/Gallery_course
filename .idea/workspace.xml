@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db077fa4-15c3-439c-858f-bf9c5bba6ca3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/stronas_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/stronas_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/admin.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/admin.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/artykuls_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/artykuls_controller.rb" />
     </list>
     <ignored path="Gallery_course.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,16 +37,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="strona.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/strona.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="kategorie.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/kategorie.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,7 +99,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/admin.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -118,6 +107,16 @@
               <folding>
                 <element signature="e#2124#2130#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="artykuls_controller.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/artykuls_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,7 +173,6 @@
         <option value="$PROJECT_DIR$/app/views/artykuls/usun.html.erb" />
         <option value="$PROJECT_DIR$/app/views/artykuls/edycja.html.erb" />
         <option value="$PROJECT_DIR$/app/views/artykuls/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/artykuls_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/strona.rb" />
         <option value="$PROJECT_DIR$/app/views/zdjecies/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galeries/edycja.html.erb" />
@@ -209,6 +207,7 @@
         <option value="$PROJECT_DIR$/app/views/kategories/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/stronas_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/admin.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/artykuls_controller.rb" />
       </list>
     </option>
   </component>
@@ -530,12 +529,12 @@
       <workItem from="1511380615825" duration="1098000" />
       <workItem from="1511382440563" duration="1134000" />
       <workItem from="1511420331913" duration="72000" />
-      <workItem from="1511558141151" duration="218000" />
+      <workItem from="1511558141151" duration="317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4171000" />
+    <option name="totallyTimeSpent" value="4270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="250" y="92" width="1034" height="538" extended-state="0" />
@@ -655,13 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/artykuls_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -991,6 +983,14 @@
           <folding>
             <element signature="e#2124#2130#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/artykuls_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
