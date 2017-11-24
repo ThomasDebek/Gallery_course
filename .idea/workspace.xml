@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db077fa4-15c3-439c-858f-bf9c5bba6ca3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/artykul.rb" afterPath="$PROJECT_DIR$/app/models/artykul.rb" />
     </list>
     <ignored path="Gallery_course.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,16 +97,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strona.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/strona.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="uzytkownik.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/uzytkownik.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,11 +107,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
               <caret line="310" column="12" lean-forward="false" selection-start-line="310" selection-start-column="12" selection-end-line="310" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="artykul.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/artykul.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="12" column="74" lean-forward="false" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -153,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/uzytkowniks_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/uzytkowniks/usun.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/kategories_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/dosteps/index.html.erb" />
@@ -204,6 +203,7 @@
         <option value="$PROJECT_DIR$/app/views/artykuls/pokaż.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/nowy_styl.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
+        <option value="$PROJECT_DIR$/app/models/artykul.rb" />
       </list>
     </option>
   </component>
@@ -262,6 +262,12 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gallery_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gallery_course" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Gallery_course" type="b2602c69:ProjectViewProjectNode" />
@@ -534,12 +540,12 @@
       <workItem from="1511420331913" duration="72000" />
       <workItem from="1511558141151" duration="866000" />
       <workItem from="1511559955128" duration="1469000" />
-      <workItem from="1511561790582" duration="33000" />
+      <workItem from="1511561790582" duration="193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6321000" />
+    <option name="totallyTimeSpent" value="6481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="250" y="92" width="1034" height="538" extended-state="0" />
@@ -776,13 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/artykul.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/galerie.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -992,6 +991,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="310" column="12" lean-forward="false" selection-start-line="310" selection-start-column="12" selection-end-line="310" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/artykul.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="74" lean-forward="false" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
           <folding />
         </state>
       </provider>
