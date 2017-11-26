@@ -7,7 +7,7 @@ class StronasController < ApplicationController
 
 
   def index
-    @stronas = @kategorie.strona.sortuj
+    @stronas = @kategorie.stronas.sortuj
   end
 
   def pokaż

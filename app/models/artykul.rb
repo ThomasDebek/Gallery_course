@@ -9,8 +9,8 @@ class Artykul < ActiveRecord::Base
                                     :message => '--- akceptuje tylko pliki PNG GIF i JPG ----'
 
   validates_attachment_size :zdjecie,
-                            :in	=> 0..850.kilobytes,
-                            :message => '--- za duży plik max rozmiar to 850 kB ----'
+                            :in	=> 0..1850.kilobytes,
+                            :message => '--- za duży plik max rozmiar to 1850  kB ----'
 
   validates  :nazwa,
              :presence => true,

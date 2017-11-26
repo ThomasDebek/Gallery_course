@@ -2,6 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db077fa4-15c3-439c-858f-bf9c5bba6ca3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/015/medium/rolety_rzymskie.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/015/original/rolety_rzymskie.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/015/thumb/rolety_rzymskie.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/028/medium/rol-zew.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/028/original/rol-zew.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/028/thumb/rol-zew.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/029/medium/rolety_materialowe.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/029/original/rolety_materialowe.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/029/thumb/rolety_materialowe.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/023/medium/rolety_rzymskie.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/023/original/rolety_rzymskie.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/023/thumb/rolety_rzymskie.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/024/medium/plisy-gal2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/024/original/plisy-gal2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/024/thumb/plisy-gal2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/025/medium/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/025/original/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/025/thumb/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/.keep" afterPath="$PROJECT_DIR$/app/assets/images/.keep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/concerns/.keep" afterPath="$PROJECT_DIR$/app/controllers/concerns/.keep" />
@@ -359,8 +377,8 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="663">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -425,7 +443,6 @@
         <option value="$PROJECT_DIR$/app/views/galeries/nowa.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galeries/usun.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/galeries_controller.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/galerie.rb" />
         <option value="$PROJECT_DIR$/app/views/galeries/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/zdjecie.rb" />
@@ -448,6 +465,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/admin.html.erb" />
         <option value="$PROJECT_DIR$/app/views/public/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/public/galerie.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -702,6 +720,7 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -712,12 +731,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1443724900922</updated>
-      <workItem from="1511731740427" duration="5000" />
+      <workItem from="1511731740427" duration="344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5000" />
+    <option name="totallyTimeSpent" value="344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="225" y="23" width="1306" height="873" extended-state="0" />
@@ -743,6 +762,9 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833335" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1121,8 +1143,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="663">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>
