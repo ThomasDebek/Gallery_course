@@ -2,274 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db077fa4-15c3-439c-858f-bf9c5bba6ca3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/015/medium/rolety_rzymskie.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/015/original/rolety_rzymskie.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/015/thumb/rolety_rzymskie.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/028/medium/rol-zew.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/028/original/rol-zew.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/028/thumb/rol-zew.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/029/medium/rolety_materialowe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/029/original/rolety_materialowe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/029/thumb/rolety_materialowe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/023/medium/rolety_rzymskie.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/023/original/rolety_rzymskie.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/023/thumb/rolety_rzymskie.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/024/medium/plisy-gal2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/024/original/plisy-gal2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/024/thumb/plisy-gal2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/025/medium/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/025/original/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/025/thumb/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/.keep" afterPath="$PROJECT_DIR$/app/assets/images/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/concerns/.keep" afterPath="$PROJECT_DIR$/app/controllers/concerns/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/.keep" afterPath="$PROJECT_DIR$/app/mailers/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/.keep" afterPath="$PROJECT_DIR$/app/models/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/concerns/.keep" afterPath="$PROJECT_DIR$/app/models/concerns/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/assets/.keep" afterPath="$PROJECT_DIR$/lib/assets/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/.keep" afterPath="$PROJECT_DIR$/lib/tasks/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/.keep" afterPath="$PROJECT_DIR$/log/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/001/medium/11298f_okna-zdjecia_1_jpeg_rolety-do-industrialnego-wnetrza-2_main.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/001/medium/11298f_okna-zdjecia_1_jpeg_rolety-do-industrialnego-wnetrza-2_main.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/001/medium/961_dsc04033.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/001/medium/961_dsc04033.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/001/original/11298f_okna-zdjecia_1_jpeg_rolety-do-industrialnego-wnetrza-2_main.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/001/original/11298f_okna-zdjecia_1_jpeg_rolety-do-industrialnego-wnetrza-2_main.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/001/original/961_dsc04033.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/001/original/961_dsc04033.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/001/thumb/11298f_okna-zdjecia_1_jpeg_rolety-do-industrialnego-wnetrza-2_main.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/001/thumb/11298f_okna-zdjecia_1_jpeg_rolety-do-industrialnego-wnetrza-2_main.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/001/thumb/961_dsc04033.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/001/thumb/961_dsc04033.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/002/medium/961_dsc04033.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/002/medium/961_dsc04033.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/002/original/961_dsc04033.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/002/original/961_dsc04033.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/002/thumb/961_dsc04033.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/002/thumb/961_dsc04033.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/003/medium/dz-n-w-kasecie-przestrzennej.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/003/medium/dz-n-w-kasecie-przestrzennej.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/003/original/dz-n-w-kasecie-przestrzennej.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/003/original/dz-n-w-kasecie-przestrzennej.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/003/thumb/dz-n-w-kasecie-przestrzennej.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/003/thumb/dz-n-w-kasecie-przestrzennej.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/004/medium/Instalacja_rvm1.png" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/004/medium/Instalacja_rvm1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/004/medium/f8fbfedf44157e327dfca7f534c7ff79.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/004/medium/f8fbfedf44157e327dfca7f534c7ff79.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/004/original/Instalacja_rvm1.png" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/004/original/Instalacja_rvm1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/004/original/f8fbfedf44157e327dfca7f534c7ff79.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/004/original/f8fbfedf44157e327dfca7f534c7ff79.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/004/thumb/Instalacja_rvm1.png" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/004/thumb/Instalacja_rvm1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/004/thumb/f8fbfedf44157e327dfca7f534c7ff79.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/004/thumb/f8fbfedf44157e327dfca7f534c7ff79.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/007/medium/dzien-noc.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/007/medium/dzien-noc.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/007/original/dzien-noc.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/007/original/dzien-noc.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/007/thumb/dzien-noc.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/007/thumb/dzien-noc.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/008/medium/dzien-noc2.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/008/medium/dzien-noc2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/008/original/dzien-noc2.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/008/original/dzien-noc2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/008/thumb/dzien-noc2.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/008/thumb/dzien-noc2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/009/medium/f8fbfedf44157e327dfca7f534c7ff79.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/009/medium/f8fbfedf44157e327dfca7f534c7ff79.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/009/original/f8fbfedf44157e327dfca7f534c7ff79.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/009/original/f8fbfedf44157e327dfca7f534c7ff79.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/009/thumb/f8fbfedf44157e327dfca7f534c7ff79.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/009/thumb/f8fbfedf44157e327dfca7f534c7ff79.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/012/medium/53d7878d593d.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/012/medium/53d7878d593d.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/012/original/53d7878d593d.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/012/original/53d7878d593d.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/012/thumb/53d7878d593d.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/012/thumb/53d7878d593d.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/013/medium/dzien-noc.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/013/medium/dzien-noc.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/013/original/dzien-noc.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/013/original/dzien-noc.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/013/thumb/dzien-noc.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/013/thumb/dzien-noc.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/014/medium/plisy-gal2.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/014/medium/plisy-gal2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/014/original/plisy-gal2.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/014/original/plisy-gal2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/014/thumb/plisy-gal2.jpg" afterPath="$PROJECT_DIR$/public/system/artykuls/zdjecies/000/000/014/thumb/plisy-gal2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/019/medium/red.jpg" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/019/medium/red.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/019/original/red.jpg" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/019/original/red.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/019/thumb/red.jpg" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/019/thumb/red.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/027/medium/roleta.jpg" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/027/medium/roleta.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/027/original/roleta.jpg" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/027/original/roleta.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/027/thumb/roleta.jpg" afterPath="$PROJECT_DIR$/public/system/galeries/zdjecies/000/000/027/thumb/roleta.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/008/medium/dzien-noc2.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/008/medium/dzien-noc2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/008/original/dzien-noc2.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/008/original/dzien-noc2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/008/thumb/dzien-noc2.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/008/thumb/dzien-noc2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/009/medium/red.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/009/medium/red.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/009/original/red.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/009/original/red.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/009/thumb/red.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/009/thumb/red.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/010/medium/11298f_okna-zdjecia_1_jpeg_rolety-do-industrialnego-wnetrza-2_main.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/010/medium/11298f_okna-zdjecia_1_jpeg_rolety-do-industrialnego-wnetrza-2_main.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/010/original/11298f_okna-zdjecia_1_jpeg_rolety-do-industrialnego-wnetrza-2_main.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/010/original/11298f_okna-zdjecia_1_jpeg_rolety-do-industrialnego-wnetrza-2_main.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/010/thumb/11298f_okna-zdjecia_1_jpeg_rolety-do-industrialnego-wnetrza-2_main.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/010/thumb/11298f_okna-zdjecia_1_jpeg_rolety-do-industrialnego-wnetrza-2_main.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/011/medium/dsc04744.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/011/medium/dsc04744.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/011/original/dsc04744.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/011/original/dsc04744.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/011/thumb/dsc04744.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/011/thumb/dsc04744.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/012/medium/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/012/medium/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/012/original/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/012/original/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/012/thumb/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/012/thumb/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/013/medium/zaluzja-plisowana.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/013/medium/zaluzja-plisowana.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/013/original/zaluzja-plisowana.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/013/original/zaluzja-plisowana.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/013/thumb/zaluzja-plisowana.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/013/thumb/zaluzja-plisowana.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/014/medium/53d7878d593d.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/014/medium/53d7878d593d.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/014/original/53d7878d593d.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/014/original/53d7878d593d.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/014/thumb/53d7878d593d.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/014/thumb/53d7878d593d.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/015/medium/dz-n-w-kasecie-przestrzennej.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/015/medium/dz-n-w-kasecie-przestrzennej.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/015/original/dz-n-w-kasecie-przestrzennej.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/015/original/dz-n-w-kasecie-przestrzennej.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/015/thumb/dz-n-w-kasecie-przestrzennej.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/015/thumb/dz-n-w-kasecie-przestrzennej.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/016/medium/dsc04744.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/016/medium/dsc04744.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/016/original/dsc04744.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/016/original/dsc04744.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/016/thumb/dsc04744.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/016/thumb/dsc04744.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/017/medium/dsc04744.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/017/medium/dsc04744.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/017/original/dsc04744.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/017/original/dsc04744.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/017/thumb/dsc04744.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/017/thumb/dsc04744.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/018/medium/dsc04744.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/018/medium/dsc04744.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/018/original/dsc04744.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/018/original/dsc04744.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/018/thumb/dsc04744.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/018/thumb/dsc04744.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/021/medium/961_dsc04033.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/021/medium/961_dsc04033.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/021/original/961_dsc04033.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/021/original/961_dsc04033.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/021/thumb/961_dsc04033.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/021/thumb/961_dsc04033.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/022/medium/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/022/medium/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/022/original/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/022/original/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/022/thumb/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" afterPath="$PROJECT_DIR$/public/system/zdjecies/zdjecies/000/000/022/thumb/roleta_dzien_noc_system_mini_bahama_i_iii_hmax_50cm.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/.keep" afterPath="$PROJECT_DIR$/test/controllers/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/.keep" afterPath="$PROJECT_DIR$/test/fixtures/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/helpers/.keep" afterPath="$PROJECT_DIR$/test/helpers/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/.keep" afterPath="$PROJECT_DIR$/test/integration/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mailers/.keep" afterPath="$PROJECT_DIR$/test/mailers/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/.keep" afterPath="$PROJECT_DIR$/test/models/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/.keep" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/.keep" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/.keep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Gallery_course.iml" afterPath="$PROJECT_DIR$/.idea/Gallery_course.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__Gallery_course.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__Gallery_course.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Production__Gallery_course.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__Gallery_course.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/spec__Gallery_course.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/spec__Gallery_course.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/test__Gallery_course.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test__Gallery_course.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/artykuls_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/artykuls_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/dosteps_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/dosteps_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/galeries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/galeries_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/kategories_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/kategories_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/public_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/public_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/stronas_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/stronas_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/test_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/test_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/uzytkowniks_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/uzytkowniks_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/zdjecies_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/zdjecies_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/artykuls_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/artykuls_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/dosteps_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/dosteps_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/galeries_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/galeries_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/kategories_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/kategories_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/public_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/public_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/stronas_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/stronas_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/test_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/test_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/uzytkowniks_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/uzytkowniks_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/zdjecies_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/zdjecies_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/artykul.rb" afterPath="$PROJECT_DIR$/app/models/artykul.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/galerie.rb" afterPath="$PROJECT_DIR$/app/models/galerie.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/kategorie.rb" afterPath="$PROJECT_DIR$/app/models/kategorie.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/strona.rb" afterPath="$PROJECT_DIR$/app/models/strona.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/uzytkownik.rb" afterPath="$PROJECT_DIR$/app/models/uzytkownik.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/zdjecie.rb" afterPath="$PROJECT_DIR$/app/models/zdjecie.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/artykuls/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/artykuls/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/artykuls/edycja.html.erb" afterPath="$PROJECT_DIR$/app/views/artykuls/edycja.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/artykuls/index.html.erb" afterPath="$PROJECT_DIR$/app/views/artykuls/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/artykuls/nowy.html.erb" afterPath="$PROJECT_DIR$/app/views/artykuls/nowy.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/artykuls/pokaż.html.erb" afterPath="$PROJECT_DIR$/app/views/artykuls/pokaż.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/artykuls/usun.html.erb" afterPath="$PROJECT_DIR$/app/views/artykuls/usun.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dodatki/_bledy.html.erb" afterPath="$PROJECT_DIR$/app/views/dodatki/_bledy.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dosteps/index.html.erb" afterPath="$PROJECT_DIR$/app/views/dosteps/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dosteps/login.html.erb" afterPath="$PROJECT_DIR$/app/views/dosteps/login.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galeries/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/galeries/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galeries/edycja.html.erb" afterPath="$PROJECT_DIR$/app/views/galeries/edycja.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galeries/index.html.erb" afterPath="$PROJECT_DIR$/app/views/galeries/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galeries/nowa.html.erb" afterPath="$PROJECT_DIR$/app/views/galeries/nowa.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galeries/pokaż.html.erb" afterPath="$PROJECT_DIR$/app/views/galeries/pokaż.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galeries/usun.html.erb" afterPath="$PROJECT_DIR$/app/views/galeries/usun.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/kategories/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/kategories/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/kategories/edycja.html.erb" afterPath="$PROJECT_DIR$/app/views/kategories/edycja.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/kategories/index.html.erb" afterPath="$PROJECT_DIR$/app/views/kategories/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/kategories/nowa.html.erb" afterPath="$PROJECT_DIR$/app/views/kategories/nowa.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/kategories/pokaż.html.erb" afterPath="$PROJECT_DIR$/app/views/kategories/pokaż.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/kategories/usun.html.erb" afterPath="$PROJECT_DIR$/app/views/kategories/usun.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/admin.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/admin.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/public.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/public.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/public/_menu.html.erb" afterPath="$PROJECT_DIR$/app/views/public/_menu.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/public/artykuly.html.erb" afterPath="$PROJECT_DIR$/app/views/public/artykuly.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/public/galerie.html.erb" afterPath="$PROJECT_DIR$/app/views/public/galerie.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/public/index.html.erb" afterPath="$PROJECT_DIR$/app/views/public/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/public/kategorie.html.erb" afterPath="$PROJECT_DIR$/app/views/public/kategorie.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/public/nowosci.html.erb" afterPath="$PROJECT_DIR$/app/views/public/nowosci.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/public/strona.html.erb" afterPath="$PROJECT_DIR$/app/views/public/strona.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/stronas/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/stronas/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/stronas/edycja.html.erb" afterPath="$PROJECT_DIR$/app/views/stronas/edycja.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/stronas/index.html.erb" afterPath="$PROJECT_DIR$/app/views/stronas/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/stronas/nowa.html.erb" afterPath="$PROJECT_DIR$/app/views/stronas/nowa.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/stronas/pokaż.html.erb" afterPath="$PROJECT_DIR$/app/views/stronas/pokaż.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/stronas/usun.html.erb" afterPath="$PROJECT_DIR$/app/views/stronas/usun.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/test/index.html.erb" afterPath="$PROJECT_DIR$/app/views/test/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/test/nawigacja.html.erb" afterPath="$PROJECT_DIR$/app/views/test/nawigacja.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/test/witaj.html.erb" afterPath="$PROJECT_DIR$/app/views/test/witaj.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/uzytkowniks/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/uzytkowniks/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/uzytkowniks/edycja.html.erb" afterPath="$PROJECT_DIR$/app/views/uzytkowniks/edycja.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/uzytkowniks/index.html.erb" afterPath="$PROJECT_DIR$/app/views/uzytkowniks/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/uzytkowniks/nowy.html.erb" afterPath="$PROJECT_DIR$/app/views/uzytkowniks/nowy.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/uzytkowniks/usun.html.erb" afterPath="$PROJECT_DIR$/app/views/uzytkowniks/usun.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/zdjecies/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/zdjecies/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/zdjecies/edycja.html.erb" afterPath="$PROJECT_DIR$/app/views/zdjecies/edycja.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/zdjecies/index.html.erb" afterPath="$PROJECT_DIR$/app/views/zdjecies/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/zdjecies/nowe.html.erb" afterPath="$PROJECT_DIR$/app/views/zdjecies/nowe.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/zdjecies/pokaz.html.erb" afterPath="$PROJECT_DIR$/app/views/zdjecies/pokaz.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/zdjecies/usun.html.erb" afterPath="$PROJECT_DIR$/app/views/zdjecies/usun.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.ru" afterPath="$PROJECT_DIR$/config.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/boot.rb" afterPath="$PROJECT_DIR$/config/boot.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" afterPath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" afterPath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/session_store.rb" afterPath="$PROJECT_DIR$/config/initializers/session_store.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/secrets.yml" afterPath="$PROJECT_DIR$/config/secrets.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20151005191246_create_uzytkowniks.rb" afterPath="$PROJECT_DIR$/db/migrate/20151005191246_create_uzytkowniks.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20151006174426_create_kategories.rb" afterPath="$PROJECT_DIR$/db/migrate/20151006174426_create_kategories.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20151006175815_create_stronas.rb" afterPath="$PROJECT_DIR$/db/migrate/20151006175815_create_stronas.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20151006180507_create_artykuls.rb" afterPath="$PROJECT_DIR$/db/migrate/20151006180507_create_artykuls.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20151006181314_create_galeries.rb" afterPath="$PROJECT_DIR$/db/migrate/20151006181314_create_galeries.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20151006181747_create_zdjecies.rb" afterPath="$PROJECT_DIR$/db/migrate/20151006181747_create_zdjecies.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/404.html" afterPath="$PROJECT_DIR$/public/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/422.html" afterPath="$PROJECT_DIR$/public/422.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/500.html" afterPath="$PROJECT_DIR$/public/500.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/test.html" afterPath="$PROJECT_DIR$/public/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/artykuls_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/artykuls_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/dosteps_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/dosteps_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/galeries_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/galeries_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/kategories_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/kategories_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/public_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/public_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/stronas_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/stronas_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/test_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/test_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/uzytkowniks_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/uzytkowniks_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/zdjecies_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/zdjecies_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/artykuls.yml" afterPath="$PROJECT_DIR$/test/fixtures/artykuls.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/galeries.yml" afterPath="$PROJECT_DIR$/test/fixtures/galeries.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/kategories.yml" afterPath="$PROJECT_DIR$/test/fixtures/kategories.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/stronas.yml" afterPath="$PROJECT_DIR$/test/fixtures/stronas.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/uzytkowniks.yml" afterPath="$PROJECT_DIR$/test/fixtures/uzytkowniks.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/zdjecies.yml" afterPath="$PROJECT_DIR$/test/fixtures/zdjecies.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/artykul_test.rb" afterPath="$PROJECT_DIR$/test/models/artykul_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/galerie_test.rb" afterPath="$PROJECT_DIR$/test/models/galerie_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/kategorie_test.rb" afterPath="$PROJECT_DIR$/test/models/kategorie_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/strona_test.rb" afterPath="$PROJECT_DIR$/test/models/strona_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/uzytkownik_test.rb" afterPath="$PROJECT_DIR$/test/models/uzytkownik_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/zdjecie_test.rb" afterPath="$PROJECT_DIR$/test/models/zdjecie_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_helper.rb" afterPath="$PROJECT_DIR$/test/test_helper.rb" />
     </list>
     <ignored path="Gallery_course.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -304,36 +38,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nowa.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/galeries/nowa.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edycja.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/galeries/edycja.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/galeries/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/zdjecies/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -374,18 +78,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="583">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/zdjecies/_form.html.erb">
+      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="development.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20151006181747_create_zdjecies.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20151006181747_create_zdjecies.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -476,7 +210,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="225" />
+    <option name="x" value="114" />
     <option name="y" value="23" />
     <option name="width" value="1306" />
     <option name="height" value="873" />
@@ -499,7 +233,27 @@
     <panes>
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Gallery_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gallery_course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gallery_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gallery_course" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gallery_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gallery_course" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="RailsProjectView" />
     </panes>
   </component>
@@ -731,23 +485,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1443724900922</updated>
-      <workItem from="1511731740427" duration="344000" />
+      <workItem from="1511731740427" duration="749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="344000" />
+    <option name="totallyTimeSpent" value="749000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="225" y="23" width="1306" height="873" extended-state="0" />
-    <editor active="true" />
+    <frame x="114" y="23" width="1306" height="873" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21044303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -782,34 +535,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/uzytkownik.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/uzytkowniks/nowy.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/uzytkowniks/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dosteps/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dosteps/login.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1141,10 +866,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20151006181747_create_zdjecies.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="583">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
